@@ -1,0 +1,8 @@
+package training.banking.beans;
+
+public class SavingAccount implements Account{
+
+	private Money money;
+	private InterestRate interestRate;
+	private Period period;
+}

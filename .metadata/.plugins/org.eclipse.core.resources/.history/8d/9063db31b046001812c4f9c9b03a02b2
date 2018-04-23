@@ -1,0 +1,10 @@
+package training.banking.beans;
+
+public class Contact {
+
+	private String firstName;
+	private String lastWord;
+	private Email email;
+	private Address address;
+	
+}

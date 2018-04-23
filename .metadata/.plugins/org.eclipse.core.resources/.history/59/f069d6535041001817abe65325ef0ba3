@@ -1,0 +1,40 @@
+package com.training.java;
+
+import java.util.Scanner;
+
+public class PalindromeNo
+
+	{
+		public static void main(String[] args) 
+			{
+				
+				int number, temp, reverse = 0, remainder;
+		        Scanner s = new Scanner(System.in);
+		        System.out.print("Enter any number: ");  
+		        try
+		        {
+		        number = s.nextInt();
+		        temp = number;
+		        	while(number > 0)
+		        	{
+		            remainder = number % 10;
+		            number = number / 10;
+		            reverse = reverse * 10 + remainder;
+		        	}
+		        if(reverse == temp)
+		        	{
+		        		System.out.println("Given number "+temp+" is palindrome");
+		        	}
+		        else
+		        	{
+		        		System.out.println("Given number "+temp+" is not a palindrome");
+		        	}
+		        }
+		        catch(Exception e)
+		        {
+		        	
+		        	System.out.println("Value entered is not a number");
+		        }
+		   
+			}
+	}

@@ -1,0 +1,16 @@
+package com.training.java;
+
+import java.util.Scanner;
+
+public class PalindromeNo
+
+	{
+		public static void main(String[] args) 
+			{
+				int number;
+				System.out.println("Enter a no: ");
+				Scanner sc = new Scanner(System.in);
+				number = sc.nextInt();
+			}
+
+	}

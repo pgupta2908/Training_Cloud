@@ -1,0 +1,32 @@
+/* Program: 			 Read a file from local disk and manipulate it.
+ * Program Description:  The program contains 2 files:-
+ * 						 1) From 1st file, it reads the content and prints accordingly. 
+ * 						 2) In 2nd file, it writes the data in the file.
+ * 						 
+ */
+
+package com.training.java;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+public class FileIO
+{
+
+	public static void main(String[] args) throws IOException 
+	{
+		  // Path of the file from which we read the contents.
+		  FileReader fr = new FileReader("D://New.txt");    
+		  int i;    
+		  // reads one by one character and prints it using read method.
+		  while((i = fr.read()) != -1)    
+		  System.out.print((char)i);    
+		  fr.close();
+		  // Provides the path of file or creates if not present.
+	      FileWriter fw = new FileWriter("D://FileProgram/abc.txt");
+	      // writes the content in the file named abc.txt using write method.
+	      fw.write("Hi from java.");    
+	      fw.close();    
+	}    
+
+}

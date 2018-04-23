@@ -1,0 +1,10 @@
+package training.banking.beans;
+
+import java.time.Period;
+
+public class SavingAccount implements Account{
+
+	private Money money;
+	private float interestRate;
+	private Period period;
+}

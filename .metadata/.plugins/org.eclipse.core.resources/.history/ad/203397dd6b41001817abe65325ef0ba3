@@ -1,0 +1,49 @@
+
+/* Program: 			 Determine whether an integer is a palindrome or not.
+ * Program Description:  The program takes a value from user and 
+ * 						 checks whether it's a palindrome or not. eg:- 121,101. 
+ */
+package com.training.java;
+
+import java.util.Scanner;
+
+public class PalindromeNo
+
+	{
+		public static void main(String[] args) 
+			{
+				// Creating variables.
+				int number, temp, reverse = 0, remainder;
+				// Accepting a no from user.
+		        System.out.print("Enter any number: ");
+		        Scanner s = new Scanner(System.in);
+		        try
+		        {
+		        number = s.nextInt();
+		        /* Storing the value accepted from user in temporary variable
+		           that will be used for verifying. */
+		        temp = number;
+		        	while(number > 0)
+		        	{
+		        		remainder = number % 10;
+		        		number = number / 10;
+		        		reverse = reverse * 10 + remainder;
+		        	}
+		        // Checking the result with original variable.  
+		        if(reverse == temp)
+		        	{
+		        		System.out.println("The number "+temp+" is palindrome");
+		        	}
+		        else
+		        	{
+		        		System.out.println("The number "+temp+" is not a palindrome");
+		        	}
+		        }
+		        catch(Exception e)
+		        {
+		        	
+		        	System.out.println("Value entered is not a number");
+		        }
+		   
+			}
+	}

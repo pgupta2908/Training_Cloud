@@ -1,0 +1,16 @@
+package training.banking.beans;
+
+/**
+ * @author trainee
+ *
+ */
+public class Bank {
+	
+	String name;
+
+	public int multiply(int x, int y)
+	{
+		int z= x*y;
+		return z;
+	}
+}

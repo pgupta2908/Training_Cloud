@@ -1,0 +1,29 @@
+package cloud.training;
+
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.junit.BeforeClass;
+import org.junit.Test;
+
+import com.training.d19042018_inputOutput_Q1.InputOutput1_Q1;
+
+public class InputOutputTest {
+
+	@BeforeClass
+	public void init()
+	{
+		InputOutput1_Q1 ioObj = new InputOutput1_Q1<>();
+	}
+	
+	@Test
+	public void printOutput(List<T> values)
+	{
+		List <T> list = new ArrayList<>();
+		list = printOutput(list);
+		assertArrayEquals(expecteds, actuals);
+	}
+}

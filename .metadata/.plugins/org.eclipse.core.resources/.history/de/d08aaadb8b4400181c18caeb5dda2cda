@@ -1,0 +1,11 @@
+package training.banking.beans;
+
+public class Address {
+
+	String houseNumber;
+	String street;
+	String zipCode;
+	String city;
+	
+	
+}

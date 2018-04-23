@@ -1,0 +1,41 @@
+/* Program: 			 Reverse the word in a String.
+ * Program Description:  The program takes a sentence from the user and 
+ * 						 reverse every word of the sentence . 
+ * 						 eg:- "This is it" becomes "sihT si ti"
+ */
+
+package com.training.java;
+
+import java.util.Scanner;
+
+public class ReverseString 
+{
+
+	public static void main(String[] args) 
+	{
+		System.out.println("Enter a sentence");
+		
+		String  arr1 = "Let's take a contest";
+		// String array to store reverse
+		String arr2[];
+		int k = 0;
+		int temp = 0;
+		for(int i = 0 ;i != '\0'; i++)
+		{
+			// Collect a word and store it
+			while(arr1[i] !=" ")
+			{
+				temp++;
+				i++;
+				
+			}
+			// Now reverse the word and store in 2nd array
+		while(i!=temp)
+			{
+				arr2[k++] = arr1[i--];
+			}
+			temp++;
+			i=temp;
+		}
+	}
+}
