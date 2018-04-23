@@ -3627,3 +3627,406 @@ java.nio.file.FileSystemException: C:\Users\trainee\Documents\workspace-sts-3.9.
 
 !ENTRY org.eclipse.equinox.security 1 0 2018-04-23 14:10:55.298
 !MESSAGE New keyring password generated. 
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 4 0 2018-04-23 14:54:04.509
+!MESSAGE Server returned HTTP response code: 401 for URL: http://air-proxy-3-wcg.corp.capgemini.com:8080/auth/?du=aHR0cDovL2FldGhlcmlhbC5jZmFwcHMuaW8vYm9vdC90eXBlZ3JhcGgvMi4wLjEuUkVMRUFTRQ==&ip=MTAuNTguODkuMTM3OjgwODA=
+!STACK 0
+java.io.IOException: Server returned HTTP response code: 401 for URL: http://air-proxy-3-wcg.corp.capgemini.com:8080/auth/?du=aHR0cDovL2FldGhlcmlhbC5jZmFwcHMuaW8vYm9vdC90eXBlZ3JhcGgvMi4wLjEuUkVMRUFTRQ==&ip=MTAuNTguODkuMTM3OjgwODA=
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1894)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.SimpleDownloadService.fetch(SimpleDownloadService.java:57)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.downloadFile(DownloadManager.java:143)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.doWithDownload(DownloadManager.java:194)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.createGraph(SpringBootTypeDiscovery.java:445)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.getTypes(SpringBootTypeDiscovery.java:340)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.indexing.SimpleExternalTypeIndexer.addFrom(SimpleExternalTypeIndexer.java:73)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.ExternalTypeIndexManager$1.run(ExternalTypeIndexManager.java:97)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 4 0 2018-04-23 14:54:19.596
+!MESSAGE Server returned HTTP response code: 401 for URL: http://air-proxy-3-wcg.corp.capgemini.com:8080/auth/?du=aHR0cDovL2FldGhlcmlhbC5jZmFwcHMuaW8vYm9vdC90eXBlZ3JhcGgvMi4wLjEuUkVMRUFTRQ==&ip=MTAuNTguODkuMTM3OjgwODA=
+!STACK 0
+java.io.IOException: Server returned HTTP response code: 401 for URL: http://air-proxy-3-wcg.corp.capgemini.com:8080/auth/?du=aHR0cDovL2FldGhlcmlhbC5jZmFwcHMuaW8vYm9vdC90eXBlZ3JhcGgvMi4wLjEuUkVMRUFTRQ==&ip=MTAuNTguODkuMTM3OjgwODA=
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1894)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.SimpleDownloadService.fetch(SimpleDownloadService.java:57)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.downloadFile(DownloadManager.java:143)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.doWithDownload(DownloadManager.java:194)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.createGraph(SpringBootTypeDiscovery.java:445)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.getTypes(SpringBootTypeDiscovery.java:340)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.indexing.SimpleExternalTypeIndexer.addFrom(SimpleExternalTypeIndexer.java:73)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.ExternalTypeIndexManager$1.run(ExternalTypeIndexManager.java:97)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 4 0 2018-04-23 14:54:34.688
+!MESSAGE Server returned HTTP response code: 401 for URL: http://air-proxy-3-wcg.corp.capgemini.com:8080/auth/?du=aHR0cDovL2FldGhlcmlhbC5jZmFwcHMuaW8vYm9vdC90eXBlZ3JhcGgvMi4wLjEuUkVMRUFTRQ==&ip=MTAuNTguODkuMTM3OjgwODA=
+!STACK 0
+java.io.IOException: Server returned HTTP response code: 401 for URL: http://air-proxy-3-wcg.corp.capgemini.com:8080/auth/?du=aHR0cDovL2FldGhlcmlhbC5jZmFwcHMuaW8vYm9vdC90eXBlZ3JhcGgvMi4wLjEuUkVMRUFTRQ==&ip=MTAuNTguODkuMTM3OjgwODA=
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1894)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.SimpleDownloadService.fetch(SimpleDownloadService.java:57)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.downloadFile(DownloadManager.java:143)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.doWithDownload(DownloadManager.java:194)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.createGraph(SpringBootTypeDiscovery.java:445)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.getTypes(SpringBootTypeDiscovery.java:340)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.indexing.SimpleExternalTypeIndexer.addFrom(SimpleExternalTypeIndexer.java:73)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.ExternalTypeIndexManager$1.run(ExternalTypeIndexManager.java:97)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 4 0 2018-04-23 14:54:49.780
+!MESSAGE Server returned HTTP response code: 401 for URL: http://air-proxy-3-wcg.corp.capgemini.com:8080/auth/?du=aHR0cDovL2FldGhlcmlhbC5jZmFwcHMuaW8vYm9vdC90eXBlZ3JhcGgvMi4wLjEuUkVMRUFTRQ==&ip=MTAuNTguODkuMTM3OjgwODA=
+!STACK 0
+java.io.IOException: Server returned HTTP response code: 401 for URL: http://air-proxy-3-wcg.corp.capgemini.com:8080/auth/?du=aHR0cDovL2FldGhlcmlhbC5jZmFwcHMuaW8vYm9vdC90eXBlZ3JhcGgvMi4wLjEuUkVMRUFTRQ==&ip=MTAuNTguODkuMTM3OjgwODA=
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1894)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.SimpleDownloadService.fetch(SimpleDownloadService.java:57)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.downloadFile(DownloadManager.java:143)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.doWithDownload(DownloadManager.java:194)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.createGraph(SpringBootTypeDiscovery.java:445)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.getTypes(SpringBootTypeDiscovery.java:340)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.indexing.SimpleExternalTypeIndexer.addFrom(SimpleExternalTypeIndexer.java:73)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.ExternalTypeIndexManager$1.run(ExternalTypeIndexManager.java:97)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 4 0 2018-04-23 14:55:05.032
+!MESSAGE Server returned HTTP response code: 401 for URL: http://air-proxy-3-wcg.corp.capgemini.com:8080/auth/?du=aHR0cDovL2FldGhlcmlhbC5jZmFwcHMuaW8vYm9vdC90eXBlZ3JhcGgvMi4wLjEuUkVMRUFTRQ==&ip=MTAuNTguODkuMTM3OjgwODA=
+!STACK 0
+java.io.IOException: Server returned HTTP response code: 401 for URL: http://air-proxy-3-wcg.corp.capgemini.com:8080/auth/?du=aHR0cDovL2FldGhlcmlhbC5jZmFwcHMuaW8vYm9vdC90eXBlZ3JhcGgvMi4wLjEuUkVMRUFTRQ==&ip=MTAuNTguODkuMTM3OjgwODA=
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1894)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.SimpleDownloadService.fetch(SimpleDownloadService.java:57)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.downloadFile(DownloadManager.java:143)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.doWithDownload(DownloadManager.java:194)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.createGraph(SpringBootTypeDiscovery.java:445)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.getTypes(SpringBootTypeDiscovery.java:340)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.indexing.SimpleExternalTypeIndexer.addFrom(SimpleExternalTypeIndexer.java:73)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.ExternalTypeIndexManager$1.run(ExternalTypeIndexManager.java:97)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 4 0 2018-04-23 14:55:20.116
+!MESSAGE Server returned HTTP response code: 401 for URL: http://air-proxy-3-wcg.corp.capgemini.com:8080/auth/?du=aHR0cDovL2FldGhlcmlhbC5jZmFwcHMuaW8vYm9vdC90eXBlZ3JhcGgvMi4wLjEuUkVMRUFTRQ==&ip=MTAuNTguODkuMTM3OjgwODA=
+!STACK 0
+java.io.IOException: Server returned HTTP response code: 401 for URL: http://air-proxy-3-wcg.corp.capgemini.com:8080/auth/?du=aHR0cDovL2FldGhlcmlhbC5jZmFwcHMuaW8vYm9vdC90eXBlZ3JhcGgvMi4wLjEuUkVMRUFTRQ==&ip=MTAuNTguODkuMTM3OjgwODA=
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1894)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.SimpleDownloadService.fetch(SimpleDownloadService.java:57)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.downloadFile(DownloadManager.java:143)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.doWithDownload(DownloadManager.java:194)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.createGraph(SpringBootTypeDiscovery.java:445)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.getTypes(SpringBootTypeDiscovery.java:340)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.indexing.SimpleExternalTypeIndexer.addFrom(SimpleExternalTypeIndexer.java:73)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.ExternalTypeIndexManager$1.run(ExternalTypeIndexManager.java:97)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 4 0 2018-04-23 14:55:35.718
+!MESSAGE Server returned HTTP response code: 401 for URL: http://air-proxy-3-wcg.corp.capgemini.com:8080/auth/?du=aHR0cDovL2FldGhlcmlhbC5jZmFwcHMuaW8vYm9vdC90eXBlZ3JhcGgvMi4wLjEuUkVMRUFTRQ==&ip=MTAuNTguODkuMTM3OjgwODA=
+!STACK 0
+java.io.IOException: Server returned HTTP response code: 401 for URL: http://air-proxy-3-wcg.corp.capgemini.com:8080/auth/?du=aHR0cDovL2FldGhlcmlhbC5jZmFwcHMuaW8vYm9vdC90eXBlZ3JhcGgvMi4wLjEuUkVMRUFTRQ==&ip=MTAuNTguODkuMTM3OjgwODA=
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1894)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.SimpleDownloadService.fetch(SimpleDownloadService.java:57)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.downloadFile(DownloadManager.java:143)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.doWithDownload(DownloadManager.java:194)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.createGraph(SpringBootTypeDiscovery.java:445)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.getTypes(SpringBootTypeDiscovery.java:340)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.indexing.SimpleExternalTypeIndexer.addFrom(SimpleExternalTypeIndexer.java:73)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.ExternalTypeIndexManager$1.run(ExternalTypeIndexManager.java:97)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 4 0 2018-04-23 14:55:50.850
+!MESSAGE Server returned HTTP response code: 401 for URL: http://air-proxy-3-wcg.corp.capgemini.com:8080/auth/?du=aHR0cDovL2FldGhlcmlhbC5jZmFwcHMuaW8vYm9vdC90eXBlZ3JhcGgvMi4wLjEuUkVMRUFTRQ==&ip=MTAuNTguODkuMTM3OjgwODA=
+!STACK 0
+java.io.IOException: Server returned HTTP response code: 401 for URL: http://air-proxy-3-wcg.corp.capgemini.com:8080/auth/?du=aHR0cDovL2FldGhlcmlhbC5jZmFwcHMuaW8vYm9vdC90eXBlZ3JhcGgvMi4wLjEuUkVMRUFTRQ==&ip=MTAuNTguODkuMTM3OjgwODA=
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1894)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.SimpleDownloadService.fetch(SimpleDownloadService.java:57)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.downloadFile(DownloadManager.java:143)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.doWithDownload(DownloadManager.java:194)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.createGraph(SpringBootTypeDiscovery.java:445)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.getTypes(SpringBootTypeDiscovery.java:340)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.indexing.SimpleExternalTypeIndexer.addFrom(SimpleExternalTypeIndexer.java:73)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.ExternalTypeIndexManager$1.run(ExternalTypeIndexManager.java:97)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 4 0 2018-04-23 14:56:09.280
+!MESSAGE Server returned HTTP response code: 401 for URL: http://air-proxy-3-wcg.corp.capgemini.com:8080/auth/?du=aHR0cDovL2FldGhlcmlhbC5jZmFwcHMuaW8vYm9vdC90eXBlZ3JhcGgvMi4wLjEuUkVMRUFTRQ==&ip=MTAuNTguODkuMTM3OjgwODA=
+!STACK 0
+java.io.IOException: Server returned HTTP response code: 401 for URL: http://air-proxy-3-wcg.corp.capgemini.com:8080/auth/?du=aHR0cDovL2FldGhlcmlhbC5jZmFwcHMuaW8vYm9vdC90eXBlZ3JhcGgvMi4wLjEuUkVMRUFTRQ==&ip=MTAuNTguODkuMTM3OjgwODA=
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1894)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.SimpleDownloadService.fetch(SimpleDownloadService.java:57)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.downloadFile(DownloadManager.java:143)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.doWithDownload(DownloadManager.java:194)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.createGraph(SpringBootTypeDiscovery.java:445)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.getTypes(SpringBootTypeDiscovery.java:340)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.indexing.SimpleExternalTypeIndexer.addFrom(SimpleExternalTypeIndexer.java:73)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.ExternalTypeIndexManager$1.run(ExternalTypeIndexManager.java:97)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 4 0 2018-04-23 14:56:24.368
+!MESSAGE Server returned HTTP response code: 401 for URL: http://air-proxy-3-wcg.corp.capgemini.com:8080/auth/?du=aHR0cDovL2FldGhlcmlhbC5jZmFwcHMuaW8vYm9vdC90eXBlZ3JhcGgvMi4wLjEuUkVMRUFTRQ==&ip=MTAuNTguODkuMTM3OjgwODA=
+!STACK 0
+java.io.IOException: Server returned HTTP response code: 401 for URL: http://air-proxy-3-wcg.corp.capgemini.com:8080/auth/?du=aHR0cDovL2FldGhlcmlhbC5jZmFwcHMuaW8vYm9vdC90eXBlZ3JhcGgvMi4wLjEuUkVMRUFTRQ==&ip=MTAuNTguODkuMTM3OjgwODA=
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1894)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.SimpleDownloadService.fetch(SimpleDownloadService.java:57)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.downloadFile(DownloadManager.java:143)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.doWithDownload(DownloadManager.java:194)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.createGraph(SpringBootTypeDiscovery.java:445)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.getTypes(SpringBootTypeDiscovery.java:340)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.indexing.SimpleExternalTypeIndexer.addFrom(SimpleExternalTypeIndexer.java:73)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.ExternalTypeIndexManager$1.run(ExternalTypeIndexManager.java:97)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 4 0 2018-04-23 14:56:39.962
+!MESSAGE Server returned HTTP response code: 401 for URL: http://air-proxy-3-wcg.corp.capgemini.com:8080/auth/?du=aHR0cDovL2FldGhlcmlhbC5jZmFwcHMuaW8vYm9vdC90eXBlZ3JhcGgvMi4wLjEuUkVMRUFTRQ==&ip=MTAuNTguODkuMTM3OjgwODA=
+!STACK 0
+java.io.IOException: Server returned HTTP response code: 401 for URL: http://air-proxy-3-wcg.corp.capgemini.com:8080/auth/?du=aHR0cDovL2FldGhlcmlhbC5jZmFwcHMuaW8vYm9vdC90eXBlZ3JhcGgvMi4wLjEuUkVMRUFTRQ==&ip=MTAuNTguODkuMTM3OjgwODA=
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1894)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.SimpleDownloadService.fetch(SimpleDownloadService.java:57)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.downloadFile(DownloadManager.java:143)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.doWithDownload(DownloadManager.java:194)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.createGraph(SpringBootTypeDiscovery.java:445)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.getTypes(SpringBootTypeDiscovery.java:340)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.indexing.SimpleExternalTypeIndexer.addFrom(SimpleExternalTypeIndexer.java:73)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.ExternalTypeIndexManager$1.run(ExternalTypeIndexManager.java:97)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 4 0 2018-04-23 14:56:55.045
+!MESSAGE Server returned HTTP response code: 401 for URL: http://air-proxy-3-wcg.corp.capgemini.com:8080/auth/?du=aHR0cDovL2FldGhlcmlhbC5jZmFwcHMuaW8vYm9vdC90eXBlZ3JhcGgvMi4wLjEuUkVMRUFTRQ==&ip=MTAuNTguODkuMTM3OjgwODA=
+!STACK 0
+java.io.IOException: Server returned HTTP response code: 401 for URL: http://air-proxy-3-wcg.corp.capgemini.com:8080/auth/?du=aHR0cDovL2FldGhlcmlhbC5jZmFwcHMuaW8vYm9vdC90eXBlZ3JhcGgvMi4wLjEuUkVMRUFTRQ==&ip=MTAuNTguODkuMTM3OjgwODA=
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1894)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.SimpleDownloadService.fetch(SimpleDownloadService.java:57)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.downloadFile(DownloadManager.java:143)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.doWithDownload(DownloadManager.java:194)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.createGraph(SpringBootTypeDiscovery.java:445)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.getTypes(SpringBootTypeDiscovery.java:340)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.indexing.SimpleExternalTypeIndexer.addFrom(SimpleExternalTypeIndexer.java:73)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.ExternalTypeIndexManager$1.run(ExternalTypeIndexManager.java:97)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 4 0 2018-04-23 14:57:10.288
+!MESSAGE Server returned HTTP response code: 401 for URL: http://air-proxy-3-wcg.corp.capgemini.com:8080/auth/?du=aHR0cDovL2FldGhlcmlhbC5jZmFwcHMuaW8vYm9vdC90eXBlZ3JhcGgvMi4wLjEuUkVMRUFTRQ==&ip=MTAuNTguODkuMTM3OjgwODA=
+!STACK 0
+java.io.IOException: Server returned HTTP response code: 401 for URL: http://air-proxy-3-wcg.corp.capgemini.com:8080/auth/?du=aHR0cDovL2FldGhlcmlhbC5jZmFwcHMuaW8vYm9vdC90eXBlZ3JhcGgvMi4wLjEuUkVMRUFTRQ==&ip=MTAuNTguODkuMTM3OjgwODA=
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1894)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.SimpleDownloadService.fetch(SimpleDownloadService.java:57)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.downloadFile(DownloadManager.java:143)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.doWithDownload(DownloadManager.java:194)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.createGraph(SpringBootTypeDiscovery.java:445)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.getTypes(SpringBootTypeDiscovery.java:340)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.indexing.SimpleExternalTypeIndexer.addFrom(SimpleExternalTypeIndexer.java:73)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.ExternalTypeIndexManager$1.run(ExternalTypeIndexManager.java:97)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 4 0 2018-04-23 14:57:25.379
+!MESSAGE Server returned HTTP response code: 401 for URL: http://air-proxy-3-wcg.corp.capgemini.com:8080/auth/?du=aHR0cDovL2FldGhlcmlhbC5jZmFwcHMuaW8vYm9vdC90eXBlZ3JhcGgvMi4wLjEuUkVMRUFTRQ==&ip=MTAuNTguODkuMTM3OjgwODA=
+!STACK 0
+java.io.IOException: Server returned HTTP response code: 401 for URL: http://air-proxy-3-wcg.corp.capgemini.com:8080/auth/?du=aHR0cDovL2FldGhlcmlhbC5jZmFwcHMuaW8vYm9vdC90eXBlZ3JhcGgvMi4wLjEuUkVMRUFTRQ==&ip=MTAuNTguODkuMTM3OjgwODA=
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1894)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.SimpleDownloadService.fetch(SimpleDownloadService.java:57)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.downloadFile(DownloadManager.java:143)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.doWithDownload(DownloadManager.java:194)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.createGraph(SpringBootTypeDiscovery.java:445)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.getTypes(SpringBootTypeDiscovery.java:340)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.indexing.SimpleExternalTypeIndexer.addFrom(SimpleExternalTypeIndexer.java:73)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.ExternalTypeIndexManager$1.run(ExternalTypeIndexManager.java:97)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 4 0 2018-04-23 14:57:40.940
+!MESSAGE Server returned HTTP response code: 401 for URL: http://air-proxy-3-wcg.corp.capgemini.com:8080/auth/?du=aHR0cDovL2FldGhlcmlhbC5jZmFwcHMuaW8vYm9vdC90eXBlZ3JhcGgvMi4wLjEuUkVMRUFTRQ==&ip=MTAuNTguODkuMTM3OjgwODA=
+!STACK 0
+java.io.IOException: Server returned HTTP response code: 401 for URL: http://air-proxy-3-wcg.corp.capgemini.com:8080/auth/?du=aHR0cDovL2FldGhlcmlhbC5jZmFwcHMuaW8vYm9vdC90eXBlZ3JhcGgvMi4wLjEuUkVMRUFTRQ==&ip=MTAuNTguODkuMTM3OjgwODA=
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1894)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.SimpleDownloadService.fetch(SimpleDownloadService.java:57)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.downloadFile(DownloadManager.java:143)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.doWithDownload(DownloadManager.java:194)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.createGraph(SpringBootTypeDiscovery.java:445)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.getTypes(SpringBootTypeDiscovery.java:340)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.indexing.SimpleExternalTypeIndexer.addFrom(SimpleExternalTypeIndexer.java:73)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.ExternalTypeIndexManager$1.run(ExternalTypeIndexManager.java:97)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 4 0 2018-04-23 14:57:56.048
+!MESSAGE Server returned HTTP response code: 401 for URL: http://air-proxy-3-wcg.corp.capgemini.com:8080/auth/?du=aHR0cDovL2FldGhlcmlhbC5jZmFwcHMuaW8vYm9vdC90eXBlZ3JhcGgvMi4wLjEuUkVMRUFTRQ==&ip=MTAuNTguODkuMTM3OjgwODA=
+!STACK 0
+java.io.IOException: Server returned HTTP response code: 401 for URL: http://air-proxy-3-wcg.corp.capgemini.com:8080/auth/?du=aHR0cDovL2FldGhlcmlhbC5jZmFwcHMuaW8vYm9vdC90eXBlZ3JhcGgvMi4wLjEuUkVMRUFTRQ==&ip=MTAuNTguODkuMTM3OjgwODA=
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1894)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.SimpleDownloadService.fetch(SimpleDownloadService.java:57)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.downloadFile(DownloadManager.java:143)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.doWithDownload(DownloadManager.java:194)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.createGraph(SpringBootTypeDiscovery.java:445)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.getTypes(SpringBootTypeDiscovery.java:340)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.indexing.SimpleExternalTypeIndexer.addFrom(SimpleExternalTypeIndexer.java:73)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.ExternalTypeIndexManager$1.run(ExternalTypeIndexManager.java:97)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 4 0 2018-04-23 14:58:11.277
+!MESSAGE Server returned HTTP response code: 401 for URL: http://air-proxy-3-wcg.corp.capgemini.com:8080/auth/?du=aHR0cDovL2FldGhlcmlhbC5jZmFwcHMuaW8vYm9vdC90eXBlZ3JhcGgvMi4wLjEuUkVMRUFTRQ==&ip=MTAuNTguODkuMTM3OjgwODA=
+!STACK 0
+java.io.IOException: Server returned HTTP response code: 401 for URL: http://air-proxy-3-wcg.corp.capgemini.com:8080/auth/?du=aHR0cDovL2FldGhlcmlhbC5jZmFwcHMuaW8vYm9vdC90eXBlZ3JhcGgvMi4wLjEuUkVMRUFTRQ==&ip=MTAuNTguODkuMTM3OjgwODA=
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1894)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.SimpleDownloadService.fetch(SimpleDownloadService.java:57)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.downloadFile(DownloadManager.java:143)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.doWithDownload(DownloadManager.java:194)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.createGraph(SpringBootTypeDiscovery.java:445)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.getTypes(SpringBootTypeDiscovery.java:340)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.indexing.SimpleExternalTypeIndexer.addFrom(SimpleExternalTypeIndexer.java:73)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.ExternalTypeIndexManager$1.run(ExternalTypeIndexManager.java:97)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 4 0 2018-04-23 14:58:26.364
+!MESSAGE Server returned HTTP response code: 401 for URL: http://air-proxy-3-wcg.corp.capgemini.com:8080/auth/?du=aHR0cDovL2FldGhlcmlhbC5jZmFwcHMuaW8vYm9vdC90eXBlZ3JhcGgvMi4wLjEuUkVMRUFTRQ==&ip=MTAuNTguODkuMTM3OjgwODA=
+!STACK 0
+java.io.IOException: Server returned HTTP response code: 401 for URL: http://air-proxy-3-wcg.corp.capgemini.com:8080/auth/?du=aHR0cDovL2FldGhlcmlhbC5jZmFwcHMuaW8vYm9vdC90eXBlZ3JhcGgvMi4wLjEuUkVMRUFTRQ==&ip=MTAuNTguODkuMTM3OjgwODA=
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1894)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.SimpleDownloadService.fetch(SimpleDownloadService.java:57)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.downloadFile(DownloadManager.java:143)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.doWithDownload(DownloadManager.java:194)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.createGraph(SpringBootTypeDiscovery.java:445)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.getTypes(SpringBootTypeDiscovery.java:340)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.indexing.SimpleExternalTypeIndexer.addFrom(SimpleExternalTypeIndexer.java:73)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.ExternalTypeIndexManager$1.run(ExternalTypeIndexManager.java:97)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 4 0 2018-04-23 14:58:41.939
+!MESSAGE Server returned HTTP response code: 401 for URL: http://air-proxy-3-wcg.corp.capgemini.com:8080/auth/?du=aHR0cDovL2FldGhlcmlhbC5jZmFwcHMuaW8vYm9vdC90eXBlZ3JhcGgvMi4wLjEuUkVMRUFTRQ==&ip=MTAuNTguODkuMTM3OjgwODA=
+!STACK 0
+java.io.IOException: Server returned HTTP response code: 401 for URL: http://air-proxy-3-wcg.corp.capgemini.com:8080/auth/?du=aHR0cDovL2FldGhlcmlhbC5jZmFwcHMuaW8vYm9vdC90eXBlZ3JhcGgvMi4wLjEuUkVMRUFTRQ==&ip=MTAuNTguODkuMTM3OjgwODA=
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1894)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.SimpleDownloadService.fetch(SimpleDownloadService.java:57)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.downloadFile(DownloadManager.java:143)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.doWithDownload(DownloadManager.java:194)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.createGraph(SpringBootTypeDiscovery.java:445)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.getTypes(SpringBootTypeDiscovery.java:340)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.indexing.SimpleExternalTypeIndexer.addFrom(SimpleExternalTypeIndexer.java:73)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.ExternalTypeIndexManager$1.run(ExternalTypeIndexManager.java:97)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 4 0 2018-04-23 14:58:57.033
+!MESSAGE Server returned HTTP response code: 401 for URL: http://air-proxy-3-wcg.corp.capgemini.com:8080/auth/?du=aHR0cDovL2FldGhlcmlhbC5jZmFwcHMuaW8vYm9vdC90eXBlZ3JhcGgvMi4wLjEuUkVMRUFTRQ==&ip=MTAuNTguODkuMTM3OjgwODA=
+!STACK 0
+java.io.IOException: Server returned HTTP response code: 401 for URL: http://air-proxy-3-wcg.corp.capgemini.com:8080/auth/?du=aHR0cDovL2FldGhlcmlhbC5jZmFwcHMuaW8vYm9vdC90eXBlZ3JhcGgvMi4wLjEuUkVMRUFTRQ==&ip=MTAuNTguODkuMTM3OjgwODA=
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1894)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.SimpleDownloadService.fetch(SimpleDownloadService.java:57)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.downloadFile(DownloadManager.java:143)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.doWithDownload(DownloadManager.java:194)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.createGraph(SpringBootTypeDiscovery.java:445)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.getTypes(SpringBootTypeDiscovery.java:340)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.indexing.SimpleExternalTypeIndexer.addFrom(SimpleExternalTypeIndexer.java:73)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.ExternalTypeIndexManager$1.run(ExternalTypeIndexManager.java:97)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY Activator 4 0 2018-04-23 14:58:57.045
+!MESSAGE IOException: Server returned HTTP response code: 401 for URL: http://air-proxy-3-wcg.corp.capgemini.com:8080/auth/?du=aHR0cDovL2FldGhlcmlhbC5jZmFwcHMuaW8vYm9vdC90eXBlZ3JhcGgvMi4wLjEuUkVMRUFTRQ==&ip=MTAuNTguODkuMTM3OjgwODA=
+!STACK 0
+java.io.IOException: Server returned HTTP response code: 401 for URL: http://air-proxy-3-wcg.corp.capgemini.com:8080/auth/?du=aHR0cDovL2FldGhlcmlhbC5jZmFwcHMuaW8vYm9vdC90eXBlZ3JhcGgvMi4wLjEuUkVMRUFTRQ==&ip=MTAuNTguODkuMTM3OjgwODA=
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1894)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.SimpleDownloadService.fetch(SimpleDownloadService.java:57)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.downloadFile(DownloadManager.java:143)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.doWithDownload(DownloadManager.java:194)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.createGraph(SpringBootTypeDiscovery.java:445)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.getTypes(SpringBootTypeDiscovery.java:340)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.indexing.SimpleExternalTypeIndexer.addFrom(SimpleExternalTypeIndexer.java:73)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.ExternalTypeIndexManager$1.run(ExternalTypeIndexManager.java:97)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.equinox.p2.repository 4 1007 2018-04-23 16:47:15.824
+!MESSAGE Authentication failed for http://download.springsource.com/release/TOOLS/update/e4.7.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2018-04-23 16:49:04.420
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: Unable to read repository at: http://download.eclipse.org/releases/oxygen/201804111000/content.xml.xz. Login canceled by user.
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.updateCache(CacheManager.java:428)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCacheFromFile(CacheManager.java:132)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.getLocalFile(XZedSimpleMetadataRepositoryFactory.java:56)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.load(XZedSimpleMetadataRepositoryFactory.java:78)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:74)
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1007 2018-04-23 16:49:04.420
+!MESSAGE Unable to read repository at: http://download.eclipse.org/releases/oxygen/201804111000/content.xml.xz. Login canceled by user.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1002 2018-04-23 16:49:04.420
+!MESSAGE Unable to read repository at http://download.eclipse.org/releases/oxygen.
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: Unable to read repository at: http://download.eclipse.org/releases/oxygen/201804111000/content.xml.xz. Login canceled by user.
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.updateCache(CacheManager.java:428)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCacheFromFile(CacheManager.java:132)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.getLocalFile(XZedSimpleMetadataRepositoryFactory.java:56)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.load(XZedSimpleMetadataRepositoryFactory.java:78)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:74)
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1007 2018-04-23 16:49:04.420
+!MESSAGE Unable to read repository at: http://download.eclipse.org/releases/oxygen/201804111000/content.xml.xz. Login canceled by user.
+
+!ENTRY org.eclipse.equinox.p2.repository 4 1007 2018-04-23 16:49:04.514
+!MESSAGE Authentication failed for http://download.springsource.com/release/TOOLS/sts4-language-servers.

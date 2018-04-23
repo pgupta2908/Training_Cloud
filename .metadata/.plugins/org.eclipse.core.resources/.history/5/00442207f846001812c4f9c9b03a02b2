@@ -1,0 +1,8 @@
+package com.training.repository;
+
+import com.training.bean.Customer;
+
+public interface CustomerRepository {
+
+	public String addCustomer(Customer customer);
+}
