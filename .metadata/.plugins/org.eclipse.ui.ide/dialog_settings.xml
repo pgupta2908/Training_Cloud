@@ -111,6 +111,8 @@
 		<item value="org.springsource.sts.package:3.9.3.201803200915-RELEASE-e47"/>
 		<item value="org.springsource.sts:3.9.3.201803200915-RELEASE"/>
 	</list>
+	<section name="ExternalProjectImportWizard">
+	</section>
 	<section name="NewWizardAction">
 		<item value="org.eclipse.m2e.core.wizards.Maven2ProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">

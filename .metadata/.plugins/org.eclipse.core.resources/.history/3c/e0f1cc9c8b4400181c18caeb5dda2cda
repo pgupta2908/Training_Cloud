@@ -1,9 +1,0 @@
-package training.banking.beans;
-
-public class PhoneNumber {
-
-	String mobile;
-	String home;
-	String office;
-	
-}

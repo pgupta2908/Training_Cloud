@@ -126,7 +126,7 @@ public class controller {
 
 				}
 				phoneBook.remove(count1);
-		break;
+				break;
 				
 			case 5:
 				System.out.println("Thank You!!");

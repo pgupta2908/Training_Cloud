@@ -1,7 +1,0 @@
-package training.banking.beans;
-
-public class Bank {
-	
-	String name;
-	
-}

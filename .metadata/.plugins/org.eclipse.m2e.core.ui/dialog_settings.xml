@@ -31,6 +31,20 @@
 		<list key="issueManagementUrl">
 		</list>
 	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\trainee\Documents\workspace-sts-3.9.3.RELEASE\banking"/>
+			<item value="C:\Users\trainee\Documents\workspace-sts-3.9.3.RELEASE\demo"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
 	<section name="MavenProjectWizardArchetypePage">
 		<item value="All Catalogs" key="catalog"/>
 		<list key="projectNameTemplate">
@@ -44,6 +58,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\trainee\Documents\workspace-sts-3.9.3.RELEASE\MAIN_REPO\Banking"/>
 			<item value="C:\Users\trainee\Documents\workspace-sts-3.9.3.RELEASE\training\src\test\java\cloud\training\InputOutputTest.java"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -57,18 +72,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="training.banking"/>
-			<item value="cloud.training"/>
-			<item value="training.cloud"/>
 		</list>
 		<list key="groupId">
-			<item value="training"/>
-			<item value="cloud"/>
 		</list>
 		<list key="artifactId">
-			<item value="banking"/>
-			<item value="training"/>
-			<item value="cloud"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

@@ -2,11 +2,18 @@ package training.banking.beans;
 
 public class Customer {
 
+	private int custId;
 	private String firstName;
 	private String lastName;
 	private Contact contact;
 	private Account account;
 	
+	public int getCustId() {
+		return custId;
+	}
+	public void setCustId(int custId) {
+		this.custId = custId;
+	}
 	public String getFirstName() {
 		return firstName;
 	}
@@ -36,8 +43,9 @@ public class Customer {
 		super();
 	}
 	
-	public Customer(String firstName, String lastName, Contact contact, Account account) {
+	public Customer(int custId, String firstName, String lastName, Contact contact, Account account) {
 		super();
+		this.custId = custId;
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.contact = contact;
@@ -46,7 +54,7 @@ public class Customer {
 	
 	@Override
 	public String toString() {
-		return "Customer [firstName=" + firstName + ", lastName=" + lastName + ", contact=" + contact + ", account=" + account + "]";
+		return "Customer [custId=" + custId + ",firstName=" + firstName + ", lastName=" + lastName + ", contact=" + contact + ", account=" + account + "]";
 	}
 	
 	
