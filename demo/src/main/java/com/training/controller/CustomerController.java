@@ -2,14 +2,21 @@ package com.training.controller;
 
 import java.util.Scanner;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+
 import com.training.bean.Customer;
 import com.training.service.CustomerService;
 import com.training.service.CustomerServiceImpl;
 
+@Controller
 public class CustomerController {
+	@Autowired
+	static
+	CustomerService service;
 public static void main (String [] args)
 {
-	CustomerService service;
+	
 	while (true)
 
 	{

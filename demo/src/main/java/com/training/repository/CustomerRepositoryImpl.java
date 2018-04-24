@@ -4,8 +4,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+import org.springframework.stereotype.Repository;
+
 import com.training.bean.Customer;
 
+@Repository
 public class CustomerRepositoryImpl implements CustomerRepository{
 
 	List<Customer> list = new ArrayList<Customer>();

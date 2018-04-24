@@ -5,7 +5,10 @@
     xsi:schemaLocation="
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="cust" class="/demo/src/main/java/com/training/bean/Customer.java">
+    <bean id="customerBean" class="/demo/src/main/java/com/training/bean/Customer.java">
+    </bean>
+ <bean id="customerBean" class="/demo/src/main/java/com/training/bean/Customer.java">
     </bean>
 
+	
 </beans>

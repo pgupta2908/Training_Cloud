@@ -1,8 +1,7 @@
 package com.training.bean;
 
-import org.springframework.boot.autoconfigure.domain.EntityScan;
+import org.springframework.stereotype.Component;
 
-@EntityScan
 public class Customer {
 
 	private String firstName;

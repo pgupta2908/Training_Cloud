@@ -14,7 +14,6 @@
 <fullyQualifiedTypeName name="training.banking.beans.PhoneNumber"/>
 <fullyQualifiedTypeName name="training.banking.beans.Contact"/>
 <fullyQualifiedTypeName name="java.nio.channels.AcceptPendingException"/>
-<fullyQualifiedTypeName name="training.banking.beans.Money"/>
 <fullyQualifiedTypeName name="java.time.Period"/>
 <fullyQualifiedTypeName name="training.banking.beans.Account"/>
 <fullyQualifiedTypeName name="java.util.List"/>
@@ -27,4 +26,13 @@
 <fullyQualifiedTypeName name="com.training.service.CustomerServiceImpl"/>
 <fullyQualifiedTypeName name="com.training.bean.Customer"/>
 <fullyQualifiedTypeName name="com.training.service.CustomerService"/>
+<fullyQualifiedTypeName name="training.banking.beans.Money"/>
+<fullyQualifiedTypeName name="training.banking.beans.SavingAccount"/>
+<fullyQualifiedTypeName name="com.training.controller.CustomerController"/>
+<fullyQualifiedTypeName name="training.banking.beans.FlexibleSavingAccount"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
 </qualifiedTypeNameHistroy>
