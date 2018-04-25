@@ -4,25 +4,31 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-import org.springframework.stereotype.Repository;
-
 import com.training.bean.Customer;
 
-@Repository
 public class CustomerRepositoryImpl implements CustomerRepository{
 
 	List<Customer> list = new ArrayList<Customer>();
-	Scanner scanner = new Scanner(System.in);
+	
 	@Override
-	public String addCustomer(Customer customer) {
+	public String addCustomer() 
+	{
+		Scanner scanner = new Scanner(System.in);
+		
+		Customer customer = new Customer();
+		
 		System.out.println("Please enter first name");
 		String fName = scanner.next();
 		customer.setFirstName(fName);
+		
 		System.out.println("Please enter last name");
 		String lName = scanner.next();
 		customer.setLastName(lName);
+		
+		//scanner.close();
 		list.add(customer);
-		return "record added successfully";
+		
+		return "recordaddedsuccessfully";
 	}
 
 	@Override

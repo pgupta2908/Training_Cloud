@@ -2,21 +2,17 @@ package com.training.service;
 
 import java.util.List;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-
 import com.training.bean.Customer;
 import com.training.repository.CustomerRepository;
+import com.training.repository.CustomerRepositoryImpl;
 
-@Service
 public class CustomerServiceImpl implements CustomerService {
 
-	@Autowired
-	CustomerRepository dao;
+	CustomerRepository dao= new CustomerRepositoryImpl();
 				
 		@Override
-		public String addCustomer(Customer customer) {
-			return dao.addCustomer(customer);
+		public String addCustomer() {
+			return dao.addCustomer();
 		}
 
 		@Override

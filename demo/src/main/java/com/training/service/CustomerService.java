@@ -6,7 +6,7 @@ import com.training.bean.Customer;
 
 public interface CustomerService {
 
-	public String addCustomer(Customer customer);
+	public String addCustomer();
 	
 	public List<Customer> displayAll();
 }
