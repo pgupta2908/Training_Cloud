@@ -16,16 +16,9 @@
 <fullyQualifiedTypeName name="java.nio.channels.AcceptPendingException"/>
 <fullyQualifiedTypeName name="java.time.Period"/>
 <fullyQualifiedTypeName name="training.banking.beans.Account"/>
-<fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="com.training.repository.CustomerRepository"/>
 <fullyQualifiedTypeName name="org.eclipse.jdt.internal.compiler.parser.Scanner"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="com.sun.xml.internal.ws.wsdl.writer.document.Service"/>
-<fullyQualifiedTypeName name="com.training.service.CustomerServiceImpl"/>
-<fullyQualifiedTypeName name="com.training.bean.Customer"/>
-<fullyQualifiedTypeName name="com.training.service.CustomerService"/>
 <fullyQualifiedTypeName name="training.banking.beans.Money"/>
 <fullyQualifiedTypeName name="training.banking.beans.SavingAccount"/>
 <fullyQualifiedTypeName name="com.training.controller.CustomerController"/>
@@ -35,4 +28,19 @@
 <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
 <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
 <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+<fullyQualifiedTypeName name="com.training.repository.CuastomerRepository"/>
+<fullyQualifiedTypeName name="com.training.repository.CustomerRepository"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.training.bean.Customer"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.lang.StrictMath"/>
+<fullyQualifiedTypeName name="com.training.service.CustomerService"/>
+<fullyQualifiedTypeName name="com.training.service.CustomerServiceImpl"/>
+<fullyQualifiedTypeName name="com.training.repository.CustomerRepositoryImpl"/>
+<fullyQualifiedTypeName name="org.springframework.boot.ExitCodeEvent"/>
+<fullyQualifiedTypeName name="com.bankingApp.Address"/>
+<fullyQualifiedTypeName name="com.bankingApp.Statement"/>
+<fullyQualifiedTypeName name="com.bankingApp.Contact"/>
+<fullyQualifiedTypeName name="com.bankingApp.Account"/>
 </qualifiedTypeNameHistroy>
