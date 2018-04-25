@@ -54,7 +54,6 @@ INDEX VERSION 1.130+C:\Users\trainee\Documents\workspace-sts-3.9.3.RELEASE\.meta
 3448268245.index
 3315616389.index
 583411282.index
-2524247980.index
 1022252118.index
 1309492282.index
 3305358066.index

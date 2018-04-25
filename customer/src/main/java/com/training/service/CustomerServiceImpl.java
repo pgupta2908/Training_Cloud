@@ -6,18 +6,22 @@ import com.training.bean.Customer;
 import com.training.repository.CustomerRepository;
 import com.training.repository.CustomerRepositoryImpl;
 
+/**
+ * @author Pratyush Gupta
+ *
+ */
 public class CustomerServiceImpl implements CustomerService {
 
-	CustomerRepository dao= new CustomerRepositoryImpl();
-				
-		@Override
-		public String addCustomer() {
-			return dao.addCustomer();
-		}
+	CustomerRepository dao = new CustomerRepositoryImpl();
 
-		@Override
-		public List<Customer> displayAll() {
-			return dao.displayAll();
-		}
-	
+	@Override
+	public String addCustomer() {
+		return dao.addCustomer();
+	}
+
+	@Override
+	public List<Customer> displayAll() {
+		return dao.displayAll();
+	}
+
 }
