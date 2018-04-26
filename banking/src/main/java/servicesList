@@ -1,0 +1,97 @@
+
+ 1.	register bank with new Contact (branch id)
+ 		a. create new branch
+ 		b. view branch
+ 		c. update branch
+ 		d. delete branch
+ 		e. view all branches
+ 			
+ 			String branchName;
+ 			int branch id;
+ 			Contact branchContact;
+ 			Address address;
+ 					String houseNumber;
+					String street;
+					String city;
+					String country;
+					String zipCode;
+ 			PhoneNumber phoneNumber;
+ 					String mobilePhone;
+ 					String officePhone;
+ 					String homePhone;
+ 			Email email;
+ 					String primaryEmail;
+ 					String sceondaryEmail;
+
+
+ 2.	register new customer with contact and address (customer id)
+ 		a. create new customer
+ 		b. view customer
+ 		c. update customer
+ 		d. delete customer
+ 		e. view all customers
+ 			
+ 			int custId;
+			Name name;
+				String firstName;
+				String middleName;
+				String lastName;
+			Contact contact;
+			Account account;
+					
+
+ 3.	register new account (saving/flexibleSaving/checking) with customer (account number with customer id)
+ 		a. create new account
+ 		b. view account
+ 		c. update account
+ 		d. delete account
+ 		e. view all accounts
+ 	//	f. calculate interest
+ 		
+ 			int accountNumber;
+ 			enum accountType{
+ 				saving, flexibleSaving, checking;
+ 			}
+ 			double balance;
+ 			//float interestRate;
+ 			//Period period;
+ 			//double interest;
+
+ 			 			 			 
+ 4.	deposit money in account (saving/flexibleSaving/checking)
+		
+ 
+ 5.	withdraw money from account (saving/flexibleSaving/checking)
+ 
+
+ 6.	check balance statement from account (saving/flexibleSaving/checking)
+ 		
+ 			Date date;
+ 			double balance;
+ 
+ 
+ PhoneNumber phoneNumber = new PhoneNumber();
+		
+		phoneNumber.setHomePhone(homePhone);
+		phoneNumber.setMobilePhone(mobilePhone);
+		phoneNumber.setOfficePhone(officePhone);
+		
+		Email email = new Email();
+		
+		email.setPrimaryEmail(primaryEmail);
+		email.setSecondaryEmail(secondaryEmail);
+		
+		Address address = new Address();
+		
+		address.setHouseNumber(houseNumber);
+		address.setStreet(street);
+		address.setCity(city);
+		address.setCountry(country);
+		address.setZipCode(zipCode);
+				
+		Contact contact = new Contact();
+		
+		contact.setPhoneNumber(phoneNumber);
+		contact.setEmail(email);
+		contact.setAddress(address);
+		

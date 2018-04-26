@@ -2,9 +2,9 @@ package training.banking;
 
 import java.time.Period;
 
-import training.banking.beans.FlexibleSavingAccount;
-import training.banking.beans.Money;
-import training.banking.beans.SavingAccount;
+import training.banking.model.FlexibleSavingAccount;
+import training.banking.model.Money;
+import training.banking.model.SavingAccount;
 
 
 public class App 

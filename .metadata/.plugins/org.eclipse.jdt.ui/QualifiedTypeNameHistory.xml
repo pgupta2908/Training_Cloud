@@ -32,7 +32,6 @@
 <fullyQualifiedTypeName name="com.training.repository.CustomerRepository"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="com.training.bean.Customer"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="java.lang.StrictMath"/>
 <fullyQualifiedTypeName name="com.training.service.CustomerService"/>
@@ -43,4 +42,6 @@
 <fullyQualifiedTypeName name="com.bankingApp.Statement"/>
 <fullyQualifiedTypeName name="com.bankingApp.Contact"/>
 <fullyQualifiedTypeName name="com.bankingApp.Account"/>
+<fullyQualifiedTypeName name="java.util.InputMismatchException"/>
+<fullyQualifiedTypeName name="com.training.bean.Customer"/>
 </qualifiedTypeNameHistroy>

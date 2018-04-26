@@ -5,13 +5,15 @@ import java.time.Period;
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
-import training.banking.beans.Money;
+
+import training.banking.model.BankBranch;
 
 /**
  * Unit test for banking App.
  */
 
-
+/*
+	@Test
     public int	getFlexibleSavingsBalance(Money money, float interestRate, Period period)
     {
     	int Money.amount = 400;
@@ -21,4 +23,12 @@ import training.banking.beans.Money;
 		assertEquals(3600, balance);
     	
     }
+	
+*/
+	@Test
+	public void addBankBranchTest(BankBranch branch)
+	{
+		branch.setBranchId(23);
+		
+	}
 }
