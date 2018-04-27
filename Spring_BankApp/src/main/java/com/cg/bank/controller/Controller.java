@@ -39,6 +39,7 @@ public class Controller {
 			log.info("4-Transaction Summary");
 			log.info("5-UpdateInfo");
 			log.info("6-Exit");
+			log.info("7-Delete User");
 			final int choice = sc.nextInt();
 			switch (choice) {
 			
@@ -158,6 +159,13 @@ public class Controller {
 			case 6:
 				System.exit(0);
 				break;
+				
+			// Delete User
+			
+			case 7:
+				log.info("Enter Customer Id");
+				final String customer_delete = sc.next();
+				iserv.delete(customer_delete);
 			}
 		}
 

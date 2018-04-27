@@ -58,4 +58,9 @@ public interface IBankService {
 	 * @param newmobile
 	 */
 	public void update(String customer_update, String newmobile);
+
+	/**
+	 * @param customer_delete
+	 */
+	public void delete(String customer_delete);
 }

@@ -73,4 +73,9 @@ public class BankServiceImpl implements IBankService {
 		idao.update(customer_update, newmobile);
 	}
 
+	@Override
+	public void delete(String customer_delete) {
+		
+		idao.delete(customer_delete);		
+	}
 }

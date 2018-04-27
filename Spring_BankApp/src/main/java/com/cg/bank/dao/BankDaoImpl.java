@@ -3,6 +3,7 @@ package com.cg.bank.dao;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.logging.Logger;
 
 import org.springframework.stereotype.Repository;
 
@@ -17,6 +18,8 @@ import com.cg.bank.customer.Statement;
 @Repository
 public class BankDaoImpl implements IBankDao {
 
+	public static final Logger log = Logger.getLogger("BankDaoImpl logger");
+	
 	public static Map<String, CustomerDetails> map = new HashMap<>();
 
 	public static Map<String, Statement> map2 = new HashMap<>();
@@ -39,18 +42,18 @@ public class BankDaoImpl implements IBankDao {
 		if (map.containsKey(customer_id)) {
 
 			final CustomerDetails details = map.get(customer_id);
-			// System.out.println("Your Account Type:"+details.getAccount().toString());
-			System.out.println("First Name:" + details.getFirstname());
-			System.out.println("Last Name:" + details.getSurname());
-			System.out.println("Current Balance:" + details.getInitial_Amount());
-			System.out.println("Interest:" + details.getIntst());
-			System.out.println("MobileNumber" + details.getContact().getMobileNumber().toString());
+			// log.info("Your Account Type:"+details.getAccount().toString());
+			log.info("First Name:" + details.getFirstname());
+			log.info("Last Name:" + details.getSurname());
+			log.info("Current Balance:" + details.getInitial_Amount());
+			log.info("Interest:" + details.getIntst());
+			log.info("MobileNumber" + details.getContact().getMobileNumber().toString());
 			return 0;
 		}
 
 		else {
 
-			System.out.println("No User Found");
+			log.info("No User Found");
 		}
 		return 1;
 
@@ -66,13 +69,13 @@ public class BankDaoImpl implements IBankDao {
 			final double updated_benificiary_amount = c2.getInitial_Amount() + amount;
 			c2.setInitial_Amount(updated_benificiary_amount);
 			map.put(user_id, c1);
-			System.out.println("Success");
+			log.info("Success");
 			return (int) updated_user_amount;
 		}
 
 		else {
 
-			System.out.println("Transaction Failed");
+			log.info("Transaction Failed");
 		}
 		return 0;
 	}
@@ -108,15 +111,15 @@ public class BankDaoImpl implements IBankDao {
 		if (map2.containsKey(customer_ide)) {
 
 			final Statement details = map2.get(customer_ide);
-			System.out.println("Your Transaction Summary:" + details.getRemark());
-			System.out.println("Date:" + details.getDate());
-			System.out.println("UserId:" + details.getC());
+			log.info("Your Transaction Summary:" + details.getRemark());
+			log.info("Date:" + details.getDate());
+			log.info("UserId:" + details.getC());
 
 		}
 
 		else {
 
-			System.out.println("No User Found");
+			log.info("No User Found");
 		}
 
 	}
@@ -129,15 +132,23 @@ public class BankDaoImpl implements IBankDao {
 			c.setMobileNumber(map.get(customer_update).getContact().getMobileNumber());
 			c.setEmail(map.get(customer_update).getContact().getEmail());
 			// c.setPhoneNumber(newmobile);
-			System.out.println("Before Updated :" + map.get(customer_update).getContact().getPhoneNumber());
+			log.info("Before Updated :" + map.get(customer_update).getContact().getPhoneNumber());
 			CustomerDetails obj = map.get(customer_update);
 			// map.put(customer_update, value)
 			obj.setContact(c);
-			System.out.println("After Updated :" + map.get(customer_update).getContact().getPhoneNumber());
+			log.info("After Updated :" + map.get(customer_update).getContact().getPhoneNumber());
 			map.put(customer_update, obj);
 
-			System.out.println("Updated");
+			log.info("Updated");
 		}
 
+	}
+
+	@Override
+	public void delete(String customer_delete) {
+		if (map.containsKey(customer_delete)) {
+			map.remove(customer_delete);
+			log.info("Deleted");
+		}
 	}
 }
