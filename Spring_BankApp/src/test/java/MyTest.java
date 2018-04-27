@@ -43,15 +43,15 @@ public class MyTest {
 		assertEquals(2, map.size());
 
 		//	Find Customer
-		iserv.transact(customer.getCustomer_id());
+		//iserv.transact(customer.getCustomer_id());
 		assertEquals(0, iserv.transact("11"));
 
 		//	Find Customer
-		iserv.transact(customer2.getCustomer_id());
+		//iserv.transact(customer2.getCustomer_id());
 		assertEquals(1, iserv.transact("1245"));
 
 		//	Transaction
-		iserv.transaction(customer.getCustomer_id(), customer2.getCustomer_id(), 0);
+		//iserv.transaction(customer.getCustomer_id(), customer2.getCustomer_id(), 0);
 		assertEquals(300, iserv.transaction("11", "12", 20.0));
 
 /*		//	Transaction Summary
