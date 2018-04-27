@@ -38,13 +38,13 @@ public class Controller {
 			log.info("3-Transactions");
 			log.info("4-Transaction Summary");
 			log.info("5-UpdateInfo");
-			log.info("6-Exit");
-			log.info("7-Delete User");
+			log.info("6-Delete User");
+			log.info("7-Exit");
 			final int choice = sc.nextInt();
 			switch (choice) {
-			
-			//	Add User
-			
+
+			// Add User
+
 			case 1:
 				final Address address = new Address();
 				final Contact contact = new Contact();
@@ -105,17 +105,17 @@ public class Controller {
 				customer.setAccount(acc);
 				iserv.add(customer);
 				break;
-			
-			//	Find User
-				
+
+			// Find User
+
 			case 2:
 				log.info("Enter Customer Id");
 				final String customer_id = sc.next();
 				iserv.transact(customer_id);
 				break;
-				
-			//	Tranactions
-			
+
+			// Tranactions
+
 			case 3:
 
 				final Date date = new Date();
@@ -135,17 +135,17 @@ public class Controller {
 				iserv.calcInterest(user_id, benificiary_id);
 
 				break;
-				
-			//	Transaction Summary
-				
+
+			// Transaction Summary
+
 			case 4:
 				log.info("Enter Customer Id");
 				final String customer_ide = sc.next();
 				iserv.transctsumm(customer_ide);
 				break;
-				
-			//	Update Customer
-				
+
+			// Update Customer
+
 			case 5:
 				log.info("Enter Customer Id");
 				final String customer_update = sc.next();
@@ -153,20 +153,23 @@ public class Controller {
 				String newmobile = sc.next();
 				iserv.update(customer_update, newmobile);
 				break;
-				
-			//	Exit program
-				
-			case 6:
-				System.exit(0);
-				break;
-				
+
 			// Delete User
-			
-			case 7:
+
+			case 6:
 				log.info("Enter Customer Id");
 				final String customer_delete = sc.next();
 				iserv.delete(customer_delete);
+				break;
+
+			// Exit program
+
+			case 7:
+				System.exit(0);
+				break;
+
 			}
+
 		}
 
 	}

@@ -42,11 +42,11 @@ public class MyTest {
 		//	Add customer
 		assertEquals(2, map.size());
 
-		//	View Customer
+		//	Find Customer
 		iserv.transact(customer.getCustomer_id());
 		assertEquals(0, iserv.transact("11"));
 
-		//	View Customer
+		//	Find Customer
 		iserv.transact(customer2.getCustomer_id());
 		assertEquals(1, iserv.transact("1245"));
 
