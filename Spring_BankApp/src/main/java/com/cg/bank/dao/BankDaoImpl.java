@@ -19,7 +19,7 @@ import com.cg.bank.customer.Statement;
 public class BankDaoImpl implements IBankDao {
 
 	public static final Logger log = Logger.getLogger("BankDaoImpl logger");
-	
+
 	public static Map<String, CustomerDetails> map = new HashMap<>();
 
 	public static Map<String, Statement> map2 = new HashMap<>();

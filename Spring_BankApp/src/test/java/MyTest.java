@@ -51,9 +51,18 @@ public class MyTest {
 		assertEquals(1, iserv.transact("1245"));
 
 		//	Transaction
-		iserv.transaction(customer.getCustomer_id(), customer2.getCustomer_id(), 200);
-		assertEquals(20, iserv.transaction("11", "12", 300.0));
+		iserv.transaction(customer.getCustomer_id(), customer2.getCustomer_id(), 0);
+		assertEquals(300, iserv.transaction("11", "12", 20.0));
 
+/*		//	Transaction Summary
+		iserv.transctsumm("11", customer_ide);
+		
+		//	Update Customer
+		
+		
+		//	Delete Customer
+		*/
+		
 	}
 
 }
