@@ -7,6 +7,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="bank"/>
 			<item value="Customers"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -35,6 +36,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\trainee\Documents\workspace-sts-3.9.3.RELEASE\Spring_BankApp"/>
 			<item value="C:\Users\trainee\Documents\workspace-sts-3.9.3.RELEASE\20April"/>
 			<item value="C:\Users\trainee\Documents\workspace-sts-3.9.3.RELEASE\banking"/>
 			<item value="C:\Users\trainee\Documents\workspace-sts-3.9.3.RELEASE\demo"/>
@@ -61,6 +63,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\trainee\Documents\workspace-sts-3.9.3.RELEASE\banking\src\main\java\repository\BankingRepositoryImpl.java"/>
 			<item value="C:\Users\trainee\Documents\workspace-sts-3.9.3.RELEASE\demo\src\main\java\com\training\controller\CustomerController.java"/>
 			<item value="C:\Users\trainee\Documents\workspace-sts-3.9.3.RELEASE\MAIN_REPO\Banking"/>
 			<item value="C:\Users\trainee\Documents\workspace-sts-3.9.3.RELEASE\training\src\test\java\cloud\training\InputOutputTest.java"/>

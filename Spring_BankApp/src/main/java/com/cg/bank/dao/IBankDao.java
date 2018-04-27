@@ -43,16 +43,20 @@ public interface IBankDao {
 	 * @param date
 	 */
 	public void statements(String user_id, String remarks, Date date);
-	
+
 	/**
 	 * @param statement
 	 */
 	public void addStatement(Statement statement);
-	
+
 	/**
 	 * @param customer_ide
 	 */
 	public void transctsumm(String customer_ide);
-	
-	public void update(String customer_update,String newmobile);
+
+	/**
+	 * @param customer_update
+	 * @param newmobile
+	 */
+	public void update(String customer_update, String newmobile);
 }

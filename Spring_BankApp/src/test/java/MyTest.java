@@ -39,16 +39,20 @@ public class MyTest {
 
 		System.out.println(map.size());
 
+		//	Add customer
 		assertEquals(2, map.size());
 
+		//	View Customer
 		iserv.transact(customer.getCustomer_id());
-		assertEquals(0, 0);
+		assertEquals(0, iserv.transact("11"));
 
+		//	View Customer
 		iserv.transact(customer2.getCustomer_id());
-		assertEquals(0, 0);
+		assertEquals(1, iserv.transact("1245"));
 
+		//	Transaction
 		iserv.transaction(customer.getCustomer_id(), customer2.getCustomer_id(), 200);
-		assertEquals(0, iserv.transaction("101", "102", 300.0));
+		assertEquals(20, iserv.transaction("11", "12", 300.0));
 
 	}
 

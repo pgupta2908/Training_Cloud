@@ -10,22 +10,38 @@ public class Account {
 
 	private String currentAccount;
 
+	/**
+	 * @return
+	 */
 	public String getSavingsAccount() {
 		return savingsAccount;
 	}
 
+	/**
+	 * @param savingsAccount
+	 */
 	public void setSavingsAccount(final String savingsAccount) {
 		this.savingsAccount = savingsAccount;
 	}
 
+	/**
+	 * @return
+	 */
 	public String getCurrentAccount() {
 		return currentAccount;
 	}
 
+	/**
+	 * @param currentAccount
+	 */
 	public void setCurrentAccount(final String currentAccount) {
 		this.currentAccount = currentAccount;
 	}
 
+	/**
+	 * @param savingsAccount
+	 * @param currentAccount
+	 */
 	public Account(final String savingsAccount, final String currentAccount) {
 		super();
 		this.savingsAccount = savingsAccount;

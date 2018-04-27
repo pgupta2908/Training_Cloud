@@ -1,31 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item value="409" key="DIALOG_X_ORIGIN"/>
+		<item value="376" key="DIALOG_Y_ORIGIN"/>
+	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="stmtList" key="selection"/>
-		<item value="false" key="casesensitive"/>
+		<item value="" key="selection"/>
+		<item value="true" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="// TODO Auto-generated method stub"/>
+			<item value="contact"/>
+			<item value="name"/>
+			<item value="ontact"/>
+			<item value="&#x09;&#x09;// TODO Auto-generated method stub"/>
+			<item value="void"/>
+			<item value=" void "/>
+			<item value="custId"/>
+			<item value="ountI"/>
+			<item value="private "/>
 			<item value="stateList"/>
 			<item value="sobj1"/>
 			<item value="stm"/>
 			<item value="test "/>
 			<item value="returnType"/>
-			<item value="adr"/>
-			<item value="sobj"/>
-			<item value="buf = new"/>
-			<item value="buf"/>
-			<item value="package com.training.java;"/>
 		</list>
 		<list key="replacehistory">
+			<item value=""/>
+			<item value="branchContact"/>
+			<item value="customerContact"/>
+			<item value="customerName"/>
+			<item value="branchName"/>
+			<item value="ustomer"/>
+			<item value="String"/>
+			<item value=" String "/>
+			<item value="return dao.;"/>
+			<item value="accountNumber"/>
+			<item value="ount"/>
 			<item value="stmtList"/>
 			<item value="stmt1"/>
 			<item value="stmt"/>
 			<item value="address "/>
-			<item value="address"/>
-			<item value="addr"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">

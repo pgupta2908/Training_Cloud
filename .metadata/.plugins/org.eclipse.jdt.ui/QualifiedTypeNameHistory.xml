@@ -30,8 +30,6 @@
 <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
 <fullyQualifiedTypeName name="com.training.repository.CuastomerRepository"/>
 <fullyQualifiedTypeName name="com.training.repository.CustomerRepository"/>
-<fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="java.lang.StrictMath"/>
 <fullyQualifiedTypeName name="com.training.service.CustomerService"/>
@@ -44,4 +42,22 @@
 <fullyQualifiedTypeName name="com.bankingApp.Account"/>
 <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
 <fullyQualifiedTypeName name="com.training.bean.Customer"/>
+<fullyQualifiedTypeName name="training.banking.service.BankingService"/>
+<fullyQualifiedTypeName name="repository.BankingRepository"/>
+<fullyQualifiedTypeName name="repository.BankingRepositoryImpl"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="training.banking.model.Customer"/>
+<fullyQualifiedTypeName name="training.banking.model.Contact"/>
+<fullyQualifiedTypeName name="training.banking.model.PhoneNumber"/>
+<fullyQualifiedTypeName name="training.banking.model.Email"/>
+<fullyQualifiedTypeName name="org.springframework.cglib.transform.impl.AddDelegateTransformer"/>
+<fullyQualifiedTypeName name="training.banking.model.Address"/>
+<fullyQualifiedTypeName name="training.banking.model.Account"/>
+<fullyQualifiedTypeName name="training.banking.service.BankingServiceImpl"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="training.banking.model.Name"/>
+<fullyQualifiedTypeName name="training.banking.model.BankBranch"/>
+<fullyQualifiedTypeName name="java.beans.Statement"/>
+<fullyQualifiedTypeName name="model.Statement"/>
 </qualifiedTypeNameHistroy>
