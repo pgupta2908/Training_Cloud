@@ -1,18 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.io.FileWriter"/>
-<fullyQualifiedTypeName name="java.io.IOException"/>
-<fullyQualifiedTypeName name="java.io.FileInputStream"/>
-<fullyQualifiedTypeName name="java.io.File"/>
-<fullyQualifiedTypeName name="java.io.FileOutputStream"/>
-<fullyQualifiedTypeName name="java.io.FilterOutputStream"/>
-<fullyQualifiedTypeName name="org.junit.BeforeClass"/>
-<fullyQualifiedTypeName name="org.junit.Test"/>
-<fullyQualifiedTypeName name="com.training.d19042018_inputOutput_Q1.InputOutput_Q1"/>
-<fullyQualifiedTypeName name="java.lang.reflect.Constructor"/>
-<fullyQualifiedTypeName name="java.sql.Date"/>
-<fullyQualifiedTypeName name="training.banking.beans.PhoneNumber"/>
-<fullyQualifiedTypeName name="training.banking.beans.Contact"/>
 <fullyQualifiedTypeName name="java.nio.channels.AcceptPendingException"/>
 <fullyQualifiedTypeName name="java.time.Period"/>
 <fullyQualifiedTypeName name="training.banking.beans.Account"/>
@@ -45,7 +32,6 @@
 <fullyQualifiedTypeName name="training.banking.service.BankingService"/>
 <fullyQualifiedTypeName name="repository.BankingRepository"/>
 <fullyQualifiedTypeName name="repository.BankingRepositoryImpl"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="training.banking.model.Customer"/>
 <fullyQualifiedTypeName name="training.banking.model.Contact"/>
@@ -60,4 +46,18 @@
 <fullyQualifiedTypeName name="training.banking.model.BankBranch"/>
 <fullyQualifiedTypeName name="java.beans.Statement"/>
 <fullyQualifiedTypeName name="model.Statement"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="com.training.java.Blank"/>
+<fullyQualifiedTypeName name="com.training.service.ICustomerService"/>
+<fullyQualifiedTypeName name="com.training.service.ISupplierService"/>
+<fullyQualifiedTypeName name="com.training.service.IRetailerService"/>
+<fullyQualifiedTypeName name="com.training.service.IGoodsService"/>
+<fullyQualifiedTypeName name="com.training.model.Goods"/>
+<fullyQualifiedTypeName name="com.training.model.Customer"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.training.model.Supplier"/>
+<fullyQualifiedTypeName name="com.training.dao.ICustomerDao"/>
+<fullyQualifiedTypeName name="com.training.dao.IGoodsDao"/>
+<fullyQualifiedTypeName name="com.training.dao.IRetailerDao"/>
+<fullyQualifiedTypeName name="com.training.dao.ISupplierDao"/>
 </qualifiedTypeNameHistroy>

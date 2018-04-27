@@ -12,6 +12,13 @@
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="log"/>
+			<item value="System.out.println"/>
+			<item value="println"/>
+			<item value="map2```"/>
+			<item value="map2"/>
+			<item value="map"/>
+			<item value="add"/>
 			<item value="// TODO Auto-generated method stub"/>
 			<item value="contact"/>
 			<item value="name"/>
@@ -20,15 +27,10 @@
 			<item value="void"/>
 			<item value=" void "/>
 			<item value="custId"/>
-			<item value="ountI"/>
-			<item value="private "/>
-			<item value="stateList"/>
-			<item value="sobj1"/>
-			<item value="stm"/>
-			<item value="test "/>
-			<item value="returnType"/>
 		</list>
 		<list key="replacehistory">
+			<item value="logs"/>
+			<item value="log.info"/>
 			<item value=""/>
 			<item value="branchContact"/>
 			<item value="customerContact"/>
@@ -42,8 +44,6 @@
 			<item value="ount"/>
 			<item value="stmtList"/>
 			<item value="stmt1"/>
-			<item value="stmt"/>
-			<item value="address "/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">

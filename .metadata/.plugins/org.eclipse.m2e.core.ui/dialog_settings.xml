@@ -7,6 +7,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="goods"/>
 			<item value="bank"/>
 			<item value="Customers"/>
 		</list>

@@ -8,7 +8,7 @@
 		<property name="message" value="Hello World!" />
 	</bean> -->
 
-<!-- 	<bean name = "bankingRepository" class = "/banking/src/main/java/repository/BankingRepositoryImpl"></bean>
+	<bean name = "bankingRepository" class = "/banking/src/main/java/repository/BankingRepositoryImpl"></bean>
 	
 	<bean name = "bankingService" class = "/banking/src/main/java/training/banking/service/BankingServiceImpl">
 		<property name = "bankingRepository" ref = "bankingRepository"></property>
@@ -16,6 +16,6 @@
 	
 	<bean name = "bankingController" class = "/banking/src/main/java/controller/BankingController">
 		<property name="bankingService" ref = "bankingService"></property>
-	</bean> -->
+	</bean>
 	
 </beans>

@@ -96,7 +96,6 @@ public class BankDaoImpl implements IBankDao {
 
 	@Override
 	public void statements(final String user_id, final String remarks, final Date date) {
-		// TODO Auto-generated method stub
 
 	}
 
@@ -131,10 +130,8 @@ public class BankDaoImpl implements IBankDao {
 			c.setPhoneNumber(newmobile);
 			c.setMobileNumber(map.get(customer_update).getContact().getMobileNumber());
 			c.setEmail(map.get(customer_update).getContact().getEmail());
-			// c.setPhoneNumber(newmobile);
 			log.info("Before Updated :" + map.get(customer_update).getContact().getPhoneNumber());
 			CustomerDetails obj = map.get(customer_update);
-			// map.put(customer_update, value)
 			obj.setContact(c);
 			log.info("After Updated :" + map.get(customer_update).getContact().getPhoneNumber());
 			map.put(customer_update, obj);

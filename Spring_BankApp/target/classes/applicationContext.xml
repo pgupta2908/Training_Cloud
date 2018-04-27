@@ -11,5 +11,4 @@
 		class="com.cg.bank.service.BankServiceImpl">
 	</bean>
 
-
 </beans>

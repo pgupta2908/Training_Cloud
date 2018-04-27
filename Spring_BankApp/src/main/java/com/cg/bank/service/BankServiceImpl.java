@@ -6,7 +6,6 @@ import org.springframework.stereotype.Service;
 
 import com.cg.bank.customer.CustomerDetails;
 import com.cg.bank.customer.Statement;
-import com.cg.bank.dao.BankDaoImpl;
 import com.cg.bank.dao.IBankDao;
 
 /**
@@ -16,7 +15,7 @@ import com.cg.bank.dao.IBankDao;
 @Service("bankServiceImpl")
 public class BankServiceImpl implements IBankService {
 
-	IBankDao idao = new BankDaoImpl();
+	IBankDao idao;
 
 	@Override
 	public void add(CustomerDetails customer) {
@@ -75,7 +74,7 @@ public class BankServiceImpl implements IBankService {
 
 	@Override
 	public void delete(String customer_delete) {
-		
-		idao.delete(customer_delete);		
+
+		idao.delete(customer_delete);
 	}
 }
