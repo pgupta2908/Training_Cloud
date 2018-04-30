@@ -6,44 +6,44 @@
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="" key="selection"/>
-		<item value="true" key="casesensitive"/>
+		<item value="surname" key="selection"/>
+		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="surname"/>
+			<item value="List&lt;"/>
+			<item value="private "/>
+			<item value="ArrayList"/>
+			<item value="ArrayList&lt;&gt;();"/>
+			<item value="null"/>
+			<item value="null "/>
+			<item value="oder"/>
+			<item value="private"/>
+			<item value="next()"/>
 			<item value="log"/>
 			<item value="System.out.println"/>
 			<item value="println"/>
 			<item value="map2```"/>
 			<item value="map2"/>
-			<item value="map"/>
-			<item value="add"/>
-			<item value="// TODO Auto-generated method stub"/>
-			<item value="contact"/>
-			<item value="name"/>
-			<item value="ontact"/>
-			<item value="&#x09;&#x09;// TODO Auto-generated method stub"/>
-			<item value="void"/>
-			<item value=" void "/>
-			<item value="custId"/>
 		</list>
 		<list key="replacehistory">
+			<item value="Map&lt;Integer, "/>
+			<item value="Map&lt;"/>
+			<item value=""/>
+			<item value="HashMap"/>
+			<item value="dao."/>
+			<item value="order"/>
+			<item value="nextLine()"/>
 			<item value="logs"/>
 			<item value="log.info"/>
-			<item value=""/>
 			<item value="branchContact"/>
 			<item value="customerContact"/>
 			<item value="customerName"/>
 			<item value="branchName"/>
 			<item value="ustomer"/>
 			<item value="String"/>
-			<item value=" String "/>
-			<item value="return dao.;"/>
-			<item value="accountNumber"/>
-			<item value="ount"/>
-			<item value="stmtList"/>
-			<item value="stmt1"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">

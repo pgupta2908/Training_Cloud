@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.nio.channels.AcceptPendingException"/>
-<fullyQualifiedTypeName name="java.time.Period"/>
-<fullyQualifiedTypeName name="training.banking.beans.Account"/>
-<fullyQualifiedTypeName name="org.eclipse.jdt.internal.compiler.parser.Scanner"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
-<fullyQualifiedTypeName name="com.sun.xml.internal.ws.wsdl.writer.document.Service"/>
-<fullyQualifiedTypeName name="training.banking.beans.Money"/>
-<fullyQualifiedTypeName name="training.banking.beans.SavingAccount"/>
-<fullyQualifiedTypeName name="com.training.controller.CustomerController"/>
-<fullyQualifiedTypeName name="training.banking.beans.FlexibleSavingAccount"/>
-<fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
-<fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
-<fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
-<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
-<fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
 <fullyQualifiedTypeName name="com.training.repository.CuastomerRepository"/>
 <fullyQualifiedTypeName name="com.training.repository.CustomerRepository"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="java.lang.StrictMath"/>
 <fullyQualifiedTypeName name="com.training.service.CustomerService"/>
 <fullyQualifiedTypeName name="com.training.service.CustomerServiceImpl"/>
@@ -32,7 +16,6 @@
 <fullyQualifiedTypeName name="training.banking.service.BankingService"/>
 <fullyQualifiedTypeName name="repository.BankingRepository"/>
 <fullyQualifiedTypeName name="repository.BankingRepositoryImpl"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="training.banking.model.Customer"/>
 <fullyQualifiedTypeName name="training.banking.model.Contact"/>
 <fullyQualifiedTypeName name="training.banking.model.PhoneNumber"/>
@@ -41,7 +24,6 @@
 <fullyQualifiedTypeName name="training.banking.model.Address"/>
 <fullyQualifiedTypeName name="training.banking.model.Account"/>
 <fullyQualifiedTypeName name="training.banking.service.BankingServiceImpl"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="training.banking.model.Name"/>
 <fullyQualifiedTypeName name="training.banking.model.BankBranch"/>
 <fullyQualifiedTypeName name="java.beans.Statement"/>
@@ -52,12 +34,30 @@
 <fullyQualifiedTypeName name="com.training.service.ISupplierService"/>
 <fullyQualifiedTypeName name="com.training.service.IRetailerService"/>
 <fullyQualifiedTypeName name="com.training.service.IGoodsService"/>
-<fullyQualifiedTypeName name="com.training.model.Goods"/>
-<fullyQualifiedTypeName name="com.training.model.Customer"/>
-<fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="com.training.model.Supplier"/>
 <fullyQualifiedTypeName name="com.training.dao.ICustomerDao"/>
 <fullyQualifiedTypeName name="com.training.dao.IGoodsDao"/>
 <fullyQualifiedTypeName name="com.training.dao.IRetailerDao"/>
 <fullyQualifiedTypeName name="com.training.dao.ISupplierDao"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="org.omg.CORBA.portable.ApplicationException"/>
+<fullyQualifiedTypeName name="com.training.service.IService"/>
+<fullyQualifiedTypeName name="com.training.dao.IDao"/>
+<fullyQualifiedTypeName name="com.training.service.ServiceImpl"/>
+<fullyQualifiedTypeName name="java.lang.NegativeArraySizeException"/>
+<fullyQualifiedTypeName name="com.training.controller.SupplierController"/>
+<fullyQualifiedTypeName name="java.util.logging.Logger"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+<fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="com.training.model.Supplier"/>
+<fullyQualifiedTypeName name="com.training.model.Customer"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="com.training.model.Goods"/>
+<fullyQualifiedTypeName name="com.training.dao.DaoImpl"/>
 </qualifiedTypeNameHistroy>

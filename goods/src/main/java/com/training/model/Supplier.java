@@ -6,7 +6,7 @@ public class Supplier {
 	private String supplierName;
 	private String supplierAddress;
 	private int quantityOrder;
-	private int oderId;
+	private int orderId;
 	private float amount;
 
 	/**
@@ -68,15 +68,15 @@ public class Supplier {
 	/**
 	 * @return
 	 */
-	public int getOderId() {
-		return oderId;
+	public int getOrderId() {
+		return orderId;
 	}
 
 	/**
-	 * @param oderId
+	 * @param orderId
 	 */
-	public void setOderId(int oderId) {
-		this.oderId = oderId;
+	public void setOrderId(int orderId) {
+		this.orderId = orderId;
 	}
 
 	/**
@@ -96,7 +96,7 @@ public class Supplier {
 	@Override
 	public String toString() {
 		return "Supplier [supplierId=" + supplierId + ", supplierName=" + supplierName + ", supplierAddress="
-				+ supplierAddress + ", quantityOrder=" + quantityOrder + ", oderId=" + oderId + ", amount=" + amount
+				+ supplierAddress + ", quantityOrder=" + quantityOrder + ", orderId=" + orderId + ", amount=" + amount
 				+ "]";
 	}
 
@@ -109,17 +109,17 @@ public class Supplier {
 	 * @param supplierName
 	 * @param supplierAddress
 	 * @param quantityOrder
-	 * @param oderId
+	 * @param orderId
 	 * @param amount
 	 */
-	public Supplier(int supplierId, String supplierName, String supplierAddress, int quantityOrder, int oderId,
+	public Supplier(int supplierId, String supplierName, String supplierAddress, int quantityOrder, int orderId,
 			float amount) {
 		super();
 		this.supplierId = supplierId;
 		this.supplierName = supplierName;
 		this.supplierAddress = supplierAddress;
 		this.quantityOrder = quantityOrder;
-		this.oderId = oderId;
+		this.orderId = orderId;
 		this.amount = amount;
 	}
 

@@ -81,7 +81,7 @@ public class Controller {
 				contact.setMobileNumber(mobilenumber);
 				log.info("Please Enter Your Phone Number");
 				final String phonenumber = sc.next();
-				contact.setMobileNumber(phonenumber);
+				contact.setPhoneNumber(phonenumber);
 				log.info("Please Enter The Email");
 				final String email = sc.next();
 				contact.setEmail(email);
