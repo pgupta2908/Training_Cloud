@@ -2804,3 +2804,350 @@ Was expecting:
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2018-04-30 20:05:55.350
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-04-30 20:09:49.917
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-04-30 20:09:49.917
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-04-30 20:12:22.609
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-04-30 20:12:22.619
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-04-30 20:12:23.769
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-04-30 20:12:23.779
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-04-30 20:13:02.389
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-04-30 20:13:02.389
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-04-30 20:13:06.227
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-04-30 20:13:06.242
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY ch.acanda.eclipse.pmd.core 1 0 2018-04-30 20:13:29.499
+!MESSAGE Could not run PMD because of incorrect syntax of file C:/Users/trainee/Documents/workspace-sts-3.9.3.RELEASE/goods/src/main/resources/applicationContext.xml
+!STACK 0
+net.sourceforge.pmd.PMDException: Error while parsing applicationContext.xml
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:98)
+	at ch.acanda.eclipse.pmd.builder.Analyzer.runPMD(Analyzer.java:79)
+	at ch.acanda.eclipse.pmd.builder.Analyzer.analyze(Analyzer.java:65)
+	at ch.acanda.eclipse.pmd.builder.PMDBuilder.analyze(PMDBuilder.java:79)
+	at ch.acanda.eclipse.pmd.builder.PMDBuilder$DeltaVisitor.visit(PMDBuilder.java:103)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:64)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48)
+	at ch.acanda.eclipse.pmd.builder.PMDBuilder.incrementalBuild(PMDBuilder.java:72)
+	at ch.acanda.eclipse.pmd.builder.PMDBuilder.build(PMDBuilder.java:57)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:142)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:232)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+Caused by: net.sourceforge.pmd.lang.ast.ParseException: org.xml.sax.SAXParseException; lineNumber: 6; columnNumber: 6; The processing instruction target matching "[xX][mM][lL]" is not allowed.
+	at net.sourceforge.pmd.lang.xml.ast.XmlParser.parseDocument(XmlParser.java:59)
+	at net.sourceforge.pmd.lang.xml.ast.XmlParser.parse(XmlParser.java:65)
+	at net.sourceforge.pmd.lang.xml.XmlParser.parse(XmlParser.java:36)
+	at net.sourceforge.pmd.SourceCodeProcessor.parse(SourceCodeProcessor.java:110)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:180)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:95)
+	... 24 more
+Caused by: org.xml.sax.SAXParseException; lineNumber: 6; columnNumber: 6; The processing instruction target matching "[xX][mM][lL]" is not allowed.
+	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at net.sourceforge.pmd.lang.xml.ast.XmlParser.parseDocument(XmlParser.java:54)
+	... 29 more
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-04-30 20:13:29.515
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-04-30 20:13:29.531
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY ch.acanda.eclipse.pmd.core 1 0 2018-04-30 20:13:46.305
+!MESSAGE Could not run PMD because of incorrect syntax of file C:/Users/trainee/Documents/workspace-sts-3.9.3.RELEASE/goods/src/main/resources/applicationContext.xml
+!STACK 0
+net.sourceforge.pmd.PMDException: Error while parsing applicationContext.xml
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:98)
+	at ch.acanda.eclipse.pmd.builder.Analyzer.runPMD(Analyzer.java:79)
+	at ch.acanda.eclipse.pmd.builder.Analyzer.analyze(Analyzer.java:65)
+	at ch.acanda.eclipse.pmd.builder.PMDBuilder.analyze(PMDBuilder.java:79)
+	at ch.acanda.eclipse.pmd.builder.PMDBuilder$DeltaVisitor.visit(PMDBuilder.java:103)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:64)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48)
+	at ch.acanda.eclipse.pmd.builder.PMDBuilder.incrementalBuild(PMDBuilder.java:72)
+	at ch.acanda.eclipse.pmd.builder.PMDBuilder.build(PMDBuilder.java:57)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:142)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:232)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+Caused by: net.sourceforge.pmd.lang.ast.ParseException: org.xml.sax.SAXParseException; lineNumber: 69; columnNumber: 3; The markup in the document following the root element must be well-formed.
+	at net.sourceforge.pmd.lang.xml.ast.XmlParser.parseDocument(XmlParser.java:59)
+	at net.sourceforge.pmd.lang.xml.ast.XmlParser.parse(XmlParser.java:65)
+	at net.sourceforge.pmd.lang.xml.XmlParser.parse(XmlParser.java:36)
+	at net.sourceforge.pmd.SourceCodeProcessor.parse(SourceCodeProcessor.java:110)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:180)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:95)
+	... 24 more
+Caused by: org.xml.sax.SAXParseException; lineNumber: 69; columnNumber: 3; The markup in the document following the root element must be well-formed.
+	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at net.sourceforge.pmd.lang.xml.ast.XmlParser.parseDocument(XmlParser.java:54)
+	... 29 more
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-04-30 20:13:46.305
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-04-30 20:13:46.320
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY ch.acanda.eclipse.pmd.core 1 0 2018-04-30 20:14:04.427
+!MESSAGE Could not run PMD because of incorrect syntax of file C:/Users/trainee/Documents/workspace-sts-3.9.3.RELEASE/goods/src/main/resources/applicationContext.xml
+!STACK 0
+net.sourceforge.pmd.PMDException: Error while parsing applicationContext.xml
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:98)
+	at ch.acanda.eclipse.pmd.builder.Analyzer.runPMD(Analyzer.java:79)
+	at ch.acanda.eclipse.pmd.builder.Analyzer.analyze(Analyzer.java:65)
+	at ch.acanda.eclipse.pmd.builder.PMDBuilder.analyze(PMDBuilder.java:79)
+	at ch.acanda.eclipse.pmd.builder.PMDBuilder$DeltaVisitor.visit(PMDBuilder.java:103)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:64)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48)
+	at ch.acanda.eclipse.pmd.builder.PMDBuilder.incrementalBuild(PMDBuilder.java:72)
+	at ch.acanda.eclipse.pmd.builder.PMDBuilder.build(PMDBuilder.java:57)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:142)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:232)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+Caused by: net.sourceforge.pmd.lang.ast.ParseException: org.xml.sax.SAXParseException; lineNumber: 69; columnNumber: 3; The markup in the document following the root element must be well-formed.
+	at net.sourceforge.pmd.lang.xml.ast.XmlParser.parseDocument(XmlParser.java:59)
+	at net.sourceforge.pmd.lang.xml.ast.XmlParser.parse(XmlParser.java:65)
+	at net.sourceforge.pmd.lang.xml.XmlParser.parse(XmlParser.java:36)
+	at net.sourceforge.pmd.SourceCodeProcessor.parse(SourceCodeProcessor.java:110)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:180)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:95)
+	... 24 more
+Caused by: org.xml.sax.SAXParseException; lineNumber: 69; columnNumber: 3; The markup in the document following the root element must be well-formed.
+	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at net.sourceforge.pmd.lang.xml.ast.XmlParser.parseDocument(XmlParser.java:54)
+	... 29 more
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-04-30 20:14:04.443
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-04-30 20:14:04.443
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY ch.acanda.eclipse.pmd.core 1 0 2018-04-30 20:14:15.161
+!MESSAGE Could not run PMD because of incorrect syntax of file C:/Users/trainee/Documents/workspace-sts-3.9.3.RELEASE/goods/src/main/resources/applicationContext.xml
+!STACK 0
+net.sourceforge.pmd.PMDException: Error while parsing applicationContext.xml
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:98)
+	at ch.acanda.eclipse.pmd.builder.Analyzer.runPMD(Analyzer.java:79)
+	at ch.acanda.eclipse.pmd.builder.Analyzer.analyze(Analyzer.java:65)
+	at ch.acanda.eclipse.pmd.builder.PMDBuilder.analyze(PMDBuilder.java:79)
+	at ch.acanda.eclipse.pmd.builder.PMDBuilder$DeltaVisitor.visit(PMDBuilder.java:103)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:64)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48)
+	at ch.acanda.eclipse.pmd.builder.PMDBuilder.incrementalBuild(PMDBuilder.java:72)
+	at ch.acanda.eclipse.pmd.builder.PMDBuilder.build(PMDBuilder.java:57)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:142)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:232)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+Caused by: net.sourceforge.pmd.lang.ast.ParseException: org.xml.sax.SAXParseException; lineNumber: 69; columnNumber: 3; The markup in the document following the root element must be well-formed.
+	at net.sourceforge.pmd.lang.xml.ast.XmlParser.parseDocument(XmlParser.java:59)
+	at net.sourceforge.pmd.lang.xml.ast.XmlParser.parse(XmlParser.java:65)
+	at net.sourceforge.pmd.lang.xml.XmlParser.parse(XmlParser.java:36)
+	at net.sourceforge.pmd.SourceCodeProcessor.parse(SourceCodeProcessor.java:110)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:180)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:95)
+	... 24 more
+Caused by: org.xml.sax.SAXParseException; lineNumber: 69; columnNumber: 3; The markup in the document following the root element must be well-formed.
+	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at net.sourceforge.pmd.lang.xml.ast.XmlParser.parseDocument(XmlParser.java:54)
+	... 29 more
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-04-30 20:14:15.177
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-04-30 20:14:15.177
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY ch.acanda.eclipse.pmd.core 1 0 2018-04-30 20:14:28.221
+!MESSAGE Could not run PMD because of incorrect syntax of file C:/Users/trainee/Documents/workspace-sts-3.9.3.RELEASE/goods/src/main/resources/applicationContext.xml
+!STACK 0
+net.sourceforge.pmd.PMDException: Error while parsing applicationContext.xml
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:98)
+	at ch.acanda.eclipse.pmd.builder.Analyzer.runPMD(Analyzer.java:79)
+	at ch.acanda.eclipse.pmd.builder.Analyzer.analyze(Analyzer.java:65)
+	at ch.acanda.eclipse.pmd.builder.PMDBuilder.analyze(PMDBuilder.java:79)
+	at ch.acanda.eclipse.pmd.builder.PMDBuilder$DeltaVisitor.visit(PMDBuilder.java:103)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:64)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48)
+	at ch.acanda.eclipse.pmd.builder.PMDBuilder.incrementalBuild(PMDBuilder.java:72)
+	at ch.acanda.eclipse.pmd.builder.PMDBuilder.build(PMDBuilder.java:57)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:142)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:232)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+Caused by: net.sourceforge.pmd.lang.ast.ParseException: org.xml.sax.SAXParseException; lineNumber: 69; columnNumber: 3; The markup in the document following the root element must be well-formed.
+	at net.sourceforge.pmd.lang.xml.ast.XmlParser.parseDocument(XmlParser.java:59)
+	at net.sourceforge.pmd.lang.xml.ast.XmlParser.parse(XmlParser.java:65)
+	at net.sourceforge.pmd.lang.xml.XmlParser.parse(XmlParser.java:36)
+	at net.sourceforge.pmd.SourceCodeProcessor.parse(SourceCodeProcessor.java:110)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:180)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:95)
+	... 24 more
+Caused by: org.xml.sax.SAXParseException; lineNumber: 69; columnNumber: 3; The markup in the document following the root element must be well-formed.
+	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at net.sourceforge.pmd.lang.xml.ast.XmlParser.parseDocument(XmlParser.java:54)
+	... 29 more
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-04-30 20:14:28.221
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-04-30 20:14:28.239
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-04-30 20:14:33.961
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-04-30 20:14:33.961
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY ch.acanda.eclipse.pmd.core 1 0 2018-04-30 20:15:10.269
+!MESSAGE ENTRY_DELETE: D:\Users\trainee\Downloads\2d22699c-4d7a-41bb-bb66-917716afa1db.tmp
+
+!ENTRY ch.acanda.eclipse.pmd.core 1 0 2018-04-30 20:15:10.437
+!MESSAGE ENTRY_MODIFY: D:\Users\trainee\Downloads\Unconfirmed 676620.crdownload
+
+!ENTRY ch.acanda.eclipse.pmd.core 1 0 2018-04-30 20:15:10.439
+!MESSAGE ENTRY_MODIFY: D:\Users\trainee\Downloads\Unconfirmed 676620.crdownload
+
+!ENTRY ch.acanda.eclipse.pmd.core 1 0 2018-04-30 20:15:10.593
+!MESSAGE ENTRY_MODIFY: D:\Users\trainee\Downloads\Unconfirmed 676620.crdownload
+
+!ENTRY ch.acanda.eclipse.pmd.core 1 0 2018-04-30 20:15:11.838
+!MESSAGE ENTRY_DELETE: D:\Users\trainee\Downloads\Unconfirmed 676620.crdownload
+
+!ENTRY ch.acanda.eclipse.pmd.core 1 0 2018-04-30 20:15:11.841
+!MESSAGE ENTRY_MODIFY: D:\Users\trainee\Downloads\Store.zip
+
+!ENTRY ch.acanda.eclipse.pmd.core 1 0 2018-04-30 20:15:23.952
+!MESSAGE ENTRY_MODIFY: D:\Users\trainee\Downloads\Store
+
+!ENTRY ch.acanda.eclipse.pmd.core 1 0 2018-04-30 20:15:23.968
+!MESSAGE ENTRY_MODIFY: D:\Users\trainee\Downloads\Store
+
+!ENTRY ch.acanda.eclipse.pmd.core 1 0 2018-04-30 20:15:23.968
+!MESSAGE ENTRY_MODIFY: D:\Users\trainee\Downloads\Store
+
+!ENTRY ch.acanda.eclipse.pmd.core 1 0 2018-04-30 20:15:23.968
+!MESSAGE ENTRY_MODIFY: D:\Users\trainee\Downloads\Store
+
+!ENTRY ch.acanda.eclipse.pmd.core 1 0 2018-04-30 20:15:23.968
+!MESSAGE ENTRY_MODIFY: D:\Users\trainee\Downloads\Store
+
+!ENTRY ch.acanda.eclipse.pmd.core 1 0 2018-04-30 20:15:23.983
+!MESSAGE ENTRY_MODIFY: D:\Users\trainee\Downloads\Store
+
+!ENTRY ch.acanda.eclipse.pmd.core 1 0 2018-04-30 20:15:23.999
+!MESSAGE ENTRY_MODIFY: D:\Users\trainee\Downloads\Store
+
+!ENTRY ch.acanda.eclipse.pmd.core 1 0 2018-04-30 20:15:23.999
+!MESSAGE ENTRY_MODIFY: D:\Users\trainee\Downloads\Store
+
+!ENTRY ch.acanda.eclipse.pmd.core 1 0 2018-04-30 20:15:23.999
+!MESSAGE ENTRY_MODIFY: D:\Users\trainee\Downloads\Store
+
+!ENTRY ch.acanda.eclipse.pmd.core 1 0 2018-04-30 20:15:24.061
+!MESSAGE ENTRY_MODIFY: D:\Users\trainee\Downloads\Store
+
+!ENTRY ch.acanda.eclipse.pmd.core 1 0 2018-04-30 20:15:41.350
+!MESSAGE ENTRY_MODIFY: D:\Users\trainee\Downloads\Store
+
+!ENTRY ch.acanda.eclipse.pmd.core 1 0 2018-04-30 20:15:41.365
+!MESSAGE ENTRY_MODIFY: D:\Users\trainee\Downloads\Store
+
+!ENTRY ch.acanda.eclipse.pmd.core 1 0 2018-04-30 20:15:41.647
+!MESSAGE ENTRY_MODIFY: D:\Users\trainee\Downloads\Store
+
+!ENTRY ch.acanda.eclipse.pmd.core 1 0 2018-04-30 20:15:41.772
+!MESSAGE ENTRY_MODIFY: D:\Users\trainee\Downloads\Store
+
+!ENTRY ch.acanda.eclipse.pmd.core 1 0 2018-04-30 20:15:41.772
+!MESSAGE ENTRY_DELETE: D:\Users\trainee\Downloads\Store
+
+!ENTRY ch.acanda.eclipse.pmd.core 1 0 2018-04-30 20:16:05.184
+!MESSAGE Invalidating cache for retailShop
