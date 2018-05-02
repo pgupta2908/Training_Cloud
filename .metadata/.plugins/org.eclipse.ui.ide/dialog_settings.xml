@@ -7,6 +7,7 @@
 		<item value="org.eclipse.cft.server.core.feature:1.2.3.v201709130027"/>
 		<item value="org.eclipse.cft.server.ui.feature:1.0.10.v201709130027"/>
 		<item value="org.eclipse.draw2d:3.10.100.201606061308"/>
+		<item value="org.eclipse.eclemma.feature:3.0.1.201711142128"/>
 		<item value="org.eclipse.egit.mylyn:4.11.0.201803080745-r"/>
 		<item value="org.eclipse.egit:4.11.0.201803080745-r"/>
 		<item value="org.eclipse.emf.codegen.ecore.ui:2.13.0.v20170609-0928"/>

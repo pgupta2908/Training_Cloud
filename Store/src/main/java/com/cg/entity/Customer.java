@@ -6,10 +6,10 @@ package com.cg.entity;
  */
 public class Customer {
 
-	private int customerId;
-	private String customerName;
-	private String customerAddress;
-	private String paymentMode;
+	 int customerId;
+	 String customerName;
+	 String customerAddress;
+	 String paymentMode;
 
 	/**
 	 * @return

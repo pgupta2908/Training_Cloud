@@ -6,44 +6,44 @@
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="customer.get" key="selection"/>
-		<item value="false" key="casesensitive"/>
+		<item value="return" key="selection"/>
+		<item value="true" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="return new"/>
+			<item value="Object"/>
+			<item value="ustomeromer"/>
+			<item value="retailerService"/>
+			<item value="cust"/>
+			<item value="dao"/>
+			<item value="atasource"/>
+			<item value="dataSource"/>
+			<item value="jdbcTemplate = new JdbcTemplate(dataSource);"/>
+			<item value="new"/>
+			<item value="jdbcTemplate"/>
 			<item value="customer.get"/>
 			<item value="Object[] inputs = new Object[] { customer.getCustomerId(), customer.getCustomerName(),"/>
 			<item value="System.out.println"/>
 			<item value="nextLine"/>
-			<item value="surname"/>
-			<item value="List&lt;"/>
-			<item value="private "/>
-			<item value="ArrayList"/>
-			<item value="ArrayList&lt;&gt;();"/>
-			<item value="null"/>
-			<item value="null "/>
-			<item value="oder"/>
-			<item value="private"/>
-			<item value="next()"/>
-			<item value="log"/>
 		</list>
 		<list key="replacehistory">
+			<item value="return"/>
+			<item value="Customer"/>
+			<item value="ustomer"/>
+			<item value="customer"/>
+			<item value="supplierDao"/>
+			<item value="retailerDao"/>
+			<item value="goodsDao"/>
+			<item value="customerDao"/>
+			<item value="ataSource"/>
+			<item value="jdbcTemplate"/>
+			<item value=""/>
 			<item value="log.info"/>
 			<item value="next"/>
 			<item value="Map&lt;Integer, "/>
 			<item value="Map&lt;"/>
-			<item value=""/>
-			<item value="HashMap"/>
-			<item value="dao."/>
-			<item value="order"/>
-			<item value="nextLine()"/>
-			<item value="logs"/>
-			<item value="branchContact"/>
-			<item value="customerContact"/>
-			<item value="customerName"/>
-			<item value="branchName"/>
-			<item value="ustomer"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">

@@ -31,7 +31,7 @@ public class StoreApplicationTests {
 	public void goodsTest() {
 			assertEquals(121,goods.getGoodsId());
 			assertEquals("asd",goods.getGoodsName());
-			//assertEquals(200.2,goods.getGoodsPrice());
+			assertEquals(200.2,goods.getGoodsPrice());
 			assertEquals(2,goods.getGoodsQuantity());
 	}
 	@Test
@@ -44,6 +44,7 @@ public class StoreApplicationTests {
 			//assertEquals("200.2",supplier.getAmount());
 
 	}
+	
 	@Test
 	public void retailerTest() {
 			
