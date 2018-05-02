@@ -2,7 +2,6 @@ package com.training.service;
 
 import java.util.Map;
 
-import com.training.dao.DaoImpl;
 import com.training.dao.IDao;
 import com.training.model.Customer;
 import com.training.model.Goods;
@@ -10,9 +9,9 @@ import com.training.model.Supplier;
 
 public class ServiceImpl implements IService {
 
-	private final IDao dao;
+	private IDao dao;
 
-	public ServiceImpl(IDao dao) {
+	public void setDao(IDao dao) {
 		this.dao = dao;
 	}
 

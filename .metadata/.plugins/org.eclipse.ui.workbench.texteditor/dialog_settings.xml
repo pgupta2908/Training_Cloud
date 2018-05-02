@@ -6,12 +6,16 @@
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="surname" key="selection"/>
+		<item value="customer.get" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="customer.get"/>
+			<item value="Object[] inputs = new Object[] { customer.getCustomerId(), customer.getCustomerName(),"/>
+			<item value="System.out.println"/>
+			<item value="nextLine"/>
 			<item value="surname"/>
 			<item value="List&lt;"/>
 			<item value="private "/>
@@ -23,12 +27,10 @@
 			<item value="private"/>
 			<item value="next()"/>
 			<item value="log"/>
-			<item value="System.out.println"/>
-			<item value="println"/>
-			<item value="map2```"/>
-			<item value="map2"/>
 		</list>
 		<list key="replacehistory">
+			<item value="log.info"/>
+			<item value="next"/>
 			<item value="Map&lt;Integer, "/>
 			<item value="Map&lt;"/>
 			<item value=""/>
@@ -37,13 +39,11 @@
 			<item value="order"/>
 			<item value="nextLine()"/>
 			<item value="logs"/>
-			<item value="log.info"/>
 			<item value="branchContact"/>
 			<item value="customerContact"/>
 			<item value="customerName"/>
 			<item value="branchName"/>
 			<item value="ustomer"/>
-			<item value="String"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
