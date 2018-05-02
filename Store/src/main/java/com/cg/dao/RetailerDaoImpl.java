@@ -19,6 +19,19 @@ public class RetailerDaoImpl implements RetailerDao {
 		this.jdbcTemplate = jdbcTemplate;
 	}
 
+	/**
+	 * @param jdbcTemplate
+	 */
+	public RetailerDaoImpl(JdbcTemplate jdbcTemplate) {
+		super();
+		this.jdbcTemplate = jdbcTemplate;
+	}
+
+	public RetailerDaoImpl() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
 	@Override
 	public String retrieveGoods(int goodsId) {
 		String query = "select * from goods where goodsId=?";

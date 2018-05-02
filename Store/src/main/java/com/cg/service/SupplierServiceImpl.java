@@ -19,6 +19,19 @@ public class SupplierServiceImpl implements SupplierService {
 		this.supplierDao = supplierDao;
 	}
 
+	/**
+	 * @param supplierDao
+	 */
+	public SupplierServiceImpl(SupplierDao supplierDao) {
+		super();
+		this.supplierDao = supplierDao;
+	}
+
+	public SupplierServiceImpl() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
 	@Override
 	public Supplier addSupplier(Supplier supplier) {
 		// TODO Auto-generated method stub

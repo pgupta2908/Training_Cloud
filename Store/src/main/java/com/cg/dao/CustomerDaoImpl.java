@@ -19,6 +19,19 @@ public class CustomerDaoImpl implements CustomerDao {
 		this.jdbcTemplate = jdbcTemplate;
 	}
 
+	public CustomerDaoImpl() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @param jdbcTemplate
+	 */
+	public CustomerDaoImpl(JdbcTemplate jdbcTemplate) {
+		super();
+		this.jdbcTemplate = jdbcTemplate;
+	}
+
 	@Override
 	public Customer addCustomer(Customer customer) {
 		String query = "insert into customer (customerId,customerName,customerAddress,paymentMode) values (?,?,?,?)";

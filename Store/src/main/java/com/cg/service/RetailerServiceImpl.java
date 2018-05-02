@@ -18,6 +18,19 @@ public class RetailerServiceImpl implements RetailerService {
 		this.retailerDao = retailerDao;
 	}
 
+	/**
+	 * @param retailerDao
+	 */
+	public RetailerServiceImpl(RetailerDao retailerDao) {
+		super();
+		this.retailerDao = retailerDao;
+	}
+
+	public RetailerServiceImpl() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
 	@Override
 	public String retrieveGoods(int goodsId) {
 		// TODO Auto-generated method stub

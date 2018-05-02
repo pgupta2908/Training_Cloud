@@ -1,7 +1,7 @@
 package com.cg.controller;
 
 import org.springframework.context.ApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.stereotype.Controller;
 
 import com.cg.entity.Customer;
@@ -36,10 +36,16 @@ public class StoreController {
 		 * String confFile = "applicationContext.xml"; ConfigurableApplicationContext
 		 * context = new ClassPathXmlApplicationContext(confFile);
 		 */
-		/*ApplicationContext context = new AnnotationConfigApplicationContext(applicationConfig.class);*/
+		/*
+		 * ApplicationContext context = new
+		 * AnnotationConfigApplicationContext(applicationConfig.class);
+		 */
 
-		ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
-		
+		// ApplicationContext context = new
+		// ClassPathXmlApplicationContext("applicationContext.xml");
+
+		ApplicationContext context = new AnnotationConfigApplicationContext("applicationConfig.java");
+
 		CustomerService customerService = context.getBean("customerService", CustomerServiceImpl.class);
 		GoodsService goodsService = context.getBean("goodsService", GoodsServiceImpl.class);
 		SupplierService supplierService = context.getBean("supplierService", SupplierServiceImpl.class);
@@ -52,13 +58,13 @@ public class StoreController {
 		customer.setCustomerAddress("mumbai");
 		customer.setPaymentMode("cash");
 		customerService.addCustomer(customer);
-		
+
 		customer.setCustomerId(2);
 		customer.setCustomerName("aishwarya");
 		customer.setCustomerAddress("ny");
 		customer.setPaymentMode("card");
 		customerService.addCustomer(customer);
-		
+
 		customer.setCustomerId(4);
 		customer.setCustomerName("tuhin");
 		customer.setCustomerAddress("sector 20");

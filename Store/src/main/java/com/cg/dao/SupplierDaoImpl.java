@@ -19,6 +19,19 @@ public class SupplierDaoImpl implements SupplierDao {
 		this.jdbcTemplate = jdbcTemplate;
 	}
 
+	/**
+	 * @param jdbcTemplate
+	 */
+	public SupplierDaoImpl(JdbcTemplate jdbcTemplate) {
+		super();
+		this.jdbcTemplate = jdbcTemplate;
+	}
+
+	public SupplierDaoImpl() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
 	@Override
 	public Supplier addSupplier(Supplier supplier) {
 		String query = "insert into supplier (supplierId,supplierName,supplierAddress,quantityOrder,orderId,amount) values (?,?,?,?,?,?)";

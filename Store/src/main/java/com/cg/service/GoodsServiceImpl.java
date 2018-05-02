@@ -19,6 +19,19 @@ public class GoodsServiceImpl implements GoodsService {
 		this.goodsDao = goodsDao;
 	}
 
+	/**
+	 * @param goodsDao
+	 */
+	public GoodsServiceImpl(GoodsDao goodsDao) {
+		super();
+		this.goodsDao = goodsDao;
+	}
+
+	public GoodsServiceImpl() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
 	@Override
 	public Goods addGoods(Goods goods) {
 		// TODO Auto-generated method stub

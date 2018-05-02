@@ -18,6 +18,19 @@ public class CustomerServiceImpl implements CustomerService {
 		this.customerDao = customerDao;
 	}
 
+	public CustomerServiceImpl() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @param customerDao
+	 */
+	public CustomerServiceImpl(CustomerDao customerDao) {
+		super();
+		this.customerDao = customerDao;
+	}
+
 	@Override
 	public Customer addCustomer(Customer customer) {
 		// TODO Auto-generated method stub

@@ -19,6 +19,19 @@ public class GoodsDaoImpl implements GoodsDao {
 		this.jdbcTemplate = jdbcTemplate;
 	}
 
+	/**
+	 * @param jdbcTemplate
+	 */
+	public GoodsDaoImpl(JdbcTemplate jdbcTemplate) {
+		super();
+		this.jdbcTemplate = jdbcTemplate;
+	}
+
+	public GoodsDaoImpl() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
 	@Override
 	public Goods addGoods(Goods goods) {
 		String query = "insert into goods (goodsId,goodsName,goodsQuantity,goodsPrice) values (?,?,?,?)";
