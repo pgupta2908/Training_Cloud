@@ -1,23 +1,27 @@
 package com.cg.dao;
 
-import javax.sql.DataSource;
-
 import org.springframework.jdbc.core.JdbcTemplate;
+
 import com.cg.entity.Supplier;
 
+/**
+ * @author trainee
+ *
+ */
 public class SupplierDaoImpl implements SupplierDao {
 
-	private DataSource dataSource;
 	private JdbcTemplate jdbcTemplate;
 
-	public void setDataSource(DataSource dataSource) {
-		this.dataSource = dataSource;
+	/**
+	 * @param jdbcTemplate
+	 */
+	public void setJdbcTemplate(JdbcTemplate jdbcTemplate) {
+		this.jdbcTemplate = jdbcTemplate;
 	}
 
 	@Override
 	public Supplier addSupplier(Supplier supplier) {
 		String query = "insert into supplier (supplierId,supplierName,supplierAddress,quantityOrder,orderId,amount) values (?,?,?,?,?,?)";
-		jdbcTemplate = new JdbcTemplate(dataSource);
 		Object[] inputs = new Object[] { supplier.getSupplierId(), supplier.getSupplierName(),
 				supplier.getSupplierAddress(), supplier.getQuantityOrder(), supplier.getOrderId(),
 				supplier.getAmount() };
@@ -29,7 +33,6 @@ public class SupplierDaoImpl implements SupplierDao {
 	@Override
 	public Supplier updateSupplier(Supplier supplier) {
 		String sql = "update supplier set amount=? where supplierId = ?";
-		jdbcTemplate = new JdbcTemplate(dataSource);
 		Object[] inputs = new Object[] { supplier.getAmount(), supplier.getSupplierId() };
 		jdbcTemplate.update(sql, inputs);
 		return supplier;

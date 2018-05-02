@@ -1,0 +1,34 @@
+CREATE DATABASE GoodsStore;
+
+USE GoodsStore;
+
+CREATE TABLE Goods (
+GoodsId INTEGER,
+GoodsName VARCHAR(50),
+GoodsQuantity INTEGER,
+GoodsPrice DOUBLE
+);
+
+CREATE TABLE Customer (
+CustomerId INTEGER,
+CustomerName VARCHAR(50),
+CustomerAddress VARCHAR(50),
+PaymentMode VARCHAR(50)
+);
+
+CREATE TABLE Supplier (
+SupplierId INTEGER,
+SupplierName VARCHAR(50),
+SupplierAddress VARCHAR(50),
+QuantityOrder INTEGER,
+OrderId INTEGER,
+Amount DOUBLE
+);
+
+CREATE TABLE Retailer (
+RetailerId INTEGER,
+RetailerName VARCHAR(50),
+RetailerAddress VARCHAR(50)
+);
+
+SHOW TABLES;

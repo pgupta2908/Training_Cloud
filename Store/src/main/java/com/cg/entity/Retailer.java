@@ -1,50 +1,65 @@
 package com.cg.entity;
 
-import javax.persistence.Entity;
-
-@Entity
+/**
+ * @author trainee
+ *
+ */
 public class Retailer {
 	private int retailerId;
+	private String retailerName;
+	private String retailerAddress;
 
+	/**
+	 * @return
+	 */
 	public int getRetailerId() {
 		return retailerId;
 	}
 
+	/**
+	 * @param retailerId
+	 */
 	public void setRetailerId(int retailerId) {
 		this.retailerId = retailerId;
 	}
 
-	private String retailerName;
-	private String retailerAddress;
-
+	/**
+	 * @return
+	 */
 	public String getRetailerName() {
 		return retailerName;
 	}
 
+	/**
+	 * @param retailerName
+	 */
 	public void setRetailerName(String retailerName) {
 		this.retailerName = retailerName;
 	}
 
+	/**
+	 * @return
+	 */
 	public String getRetailerAddress() {
 		return retailerAddress;
 	}
 
+	/**
+	 * @param retailerAddress
+	 */
 	public void setRetailerAddress(String retailerAddress) {
 		this.retailerAddress = retailerAddress;
 	}
 
-	/**
-	 * @param retailerName
-	 * @param retailerAddress
-	 */
-
-	/**
-	 * 
-	 */
 	public Retailer() {
 		super();
 	}
 
+	/**
+	 * @param retailerId
+	 * @param retailerName
+	 * @param retailerAddress
+	 */
 	public Retailer(int retailerId, String retailerName, String retailerAddress) {
 		super();
 		this.retailerId = retailerId;

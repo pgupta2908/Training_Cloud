@@ -1,9 +1,9 @@
 package com.cg.entity;
 
-import javax.persistence.Entity;
-
-@Entity
-
+/**
+ * @author trainee
+ *
+ */
 public class Supplier extends Goods {
 
 	private int supplierId;
@@ -13,50 +13,86 @@ public class Supplier extends Goods {
 	private int orderId;
 	private double amount;
 
+	/**
+	 * @return
+	 */
 	public int getSupplierId() {
 		return supplierId;
 	}
 
+	/**
+	 * @param supplierId
+	 */
 	public void setSupplierId(int supplierId) {
 		this.supplierId = supplierId;
 	}
 
+	/**
+	 * @return
+	 */
 	public String getSupplierName() {
 		return supplierName;
 	}
 
+	/**
+	 * @param supplierName
+	 */
 	public void setSupplierName(String supplierName) {
 		this.supplierName = supplierName;
 	}
 
+	/**
+	 * @return
+	 */
 	public String getSupplierAddress() {
 		return supplierAddress;
 	}
 
+	/**
+	 * @param supplierAddress
+	 */
 	public void setSupplierAddress(String supplierAddress) {
 		this.supplierAddress = supplierAddress;
 	}
 
+	/**
+	 * @return
+	 */
 	public int getQuantityOrder() {
 		return quantityOrder;
 	}
 
+	/**
+	 * @param quantityOrder
+	 */
 	public void setQuantityOrder(int quantityOrder) {
 		this.quantityOrder = quantityOrder;
 	}
 
+	/**
+	 * @return
+	 */
 	public int getOrderId() {
 		return orderId;
 	}
 
+	/**
+	 * @param orderId
+	 */
 	public void setOrderId(int orderId) {
 		this.orderId = orderId;
 	}
 
+	/**
+	 * @return
+	 */
 	public double getAmount() {
 		return amount;
 	}
 
+	/**
+	 * @param amount
+	 */
 	public void setAmount(double amount) {
 		this.amount = amount;
 	}
@@ -80,9 +116,6 @@ public class Supplier extends Goods {
 		this.amount = amount;
 	}
 
-	/**
-	 * 
-	 */
 	public Supplier() {
 		super();
 	}

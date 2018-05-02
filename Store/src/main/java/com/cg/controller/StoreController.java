@@ -1,62 +1,83 @@
 package com.cg.controller;
 
-import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.stereotype.Controller;
 
-import com.cg.dao.CustomerDao;
-import com.cg.dao.GoodsDao;
-import com.cg.dao.RetailerDao;
-import com.cg.dao.SupplierDao;
 import com.cg.entity.Customer;
 import com.cg.entity.Goods;
 import com.cg.entity.Retailer;
 import com.cg.entity.Supplier;
+import com.cg.service.CustomerService;
+import com.cg.service.CustomerServiceImpl;
+import com.cg.service.GoodsService;
+import com.cg.service.GoodsServiceImpl;
+import com.cg.service.RetailerService;
+import com.cg.service.RetailerServiceImpl;
+import com.cg.service.SupplierService;
+import com.cg.service.SupplierServiceImpl;
 
+/**
+ * @author trainee
+ *
+ */
 @Controller
 public class StoreController {
 
 	/**
 	 * @param args
 	 */
+	/**
+	 * @param args
+	 */
 	public static void main(String[] args) {
 
-		String confFile = "applicationContext.xml";
-		ConfigurableApplicationContext context = new ClassPathXmlApplicationContext(confFile);
-		CustomerDao custDao = (CustomerDao) context.getBean("customerDao");
-		GoodsDao goodsDao = (GoodsDao) context.getBean("goodsDao");
-		SupplierDao supplierDao = (SupplierDao) context.getBean("supplierDao");
-		RetailerDao retailerDao = (RetailerDao) context.getBean("retailerDao");
+		/*
+		 * String confFile = "applicationContext.xml"; ConfigurableApplicationContext
+		 * context = new ClassPathXmlApplicationContext(confFile);
+		 */
+		/*ApplicationContext context = new AnnotationConfigApplicationContext(applicationConfig.class);*/
+
+		ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+		
+		CustomerService customerService = context.getBean("customerService", CustomerServiceImpl.class);
+		GoodsService goodsService = context.getBean("goodsService", GoodsServiceImpl.class);
+		SupplierService supplierService = context.getBean("supplierService", SupplierServiceImpl.class);
+		RetailerService retailerService = context.getBean("retailerService", RetailerServiceImpl.class);
 
 		// insert Customer details to Customer table
-		Customer cust = new Customer();
-		cust.setCustomerId(1);
-		cust.setCustomerName("ritika");
-		cust.setCustomerAddress("mumbai");
-		cust.setPaymentMode("cash");
-		cust.setCustomerId(2);
-		cust.setCustomerName("aishwarya");
-		cust.setCustomerAddress("ny");
-		cust.setPaymentMode("card");
-		cust.setCustomerId(4);
-		cust.setCustomerName("tuhin");
-		cust.setCustomerAddress("sector 20");
-		cust.setPaymentMode("chillar");
-		custDao.addCustomer(cust);
+		Customer customer = new Customer();
+		customer.setCustomerId(1);
+		customer.setCustomerName("ritika");
+		customer.setCustomerAddress("mumbai");
+		customer.setPaymentMode("cash");
+		customerService.addCustomer(customer);
+		
+		customer.setCustomerId(2);
+		customer.setCustomerName("aishwarya");
+		customer.setCustomerAddress("ny");
+		customer.setPaymentMode("card");
+		customerService.addCustomer(customer);
+		
+		customer.setCustomerId(4);
+		customer.setCustomerName("tuhin");
+		customer.setCustomerAddress("sector 20");
+		customer.setPaymentMode("chillar");
+		customerService.addCustomer(customer);
 
 		// delete Customer
-		cust.setCustomerId(2);
-		custDao.deleteCustomer(2);
+		customer.setCustomerId(1);
+		customerService.deleteCustomer(2);
 
 		// update Customer
-		cust.setCustomerId(3);
-		cust.setPaymentMode("cash");
+		customer.setCustomerId(4);
+		customer.setPaymentMode("cash");
 
-		custDao.updateCustomer(cust);
+		customerService.updateCustomer(customer);
 
-		// search by Id
-		String custDetails = retailerDao.retrieveCustomer(1);
-		System.out.println("customerDetails" + custDetails);
+		// search by Customer Id
+		String customerDetails = retailerService.retrieveCustomer(1);
+		System.out.println("customerDetails" + customerDetails);
 
 		// insert Goods details to Goods table
 		Goods goods = new Goods();
@@ -69,22 +90,26 @@ public class StoreController {
 		goods.setGoodsName("Fruit");
 		goods.setGoodsPrice(500);
 		goods.setGoodsQuantity(10);
-		goodsDao.addGoods(goods);
+		goodsService.addGoods(goods);
 
 		goods.setGoodsId(103);
 		goods.setGoodsName("Snacks");
 		goods.setGoodsPrice(300);
 		goods.setGoodsQuantity(5);
-		goodsDao.addGoods(goods);
+		goodsService.addGoods(goods);
 
 		// delete goods
 		goods.setGoodsId(102);
-		goodsDao.deleteGoods(102);
+		goodsService.deleteGoods(102);
 
 		// update goods
 		goods.setGoodsId(102);
 		goods.setGoodsName("Fridge");
-		goodsDao.updateGoods(goods);
+		goodsService.updateGoods(goods);
+
+		// search by goods Id
+		String goodsDetails = retailerService.retrieveGoods(1);
+		System.out.println("goodsDetails" + goodsDetails);
 
 		// insert Supplier details to Supplier table
 		Supplier supplier = new Supplier();
@@ -94,7 +119,7 @@ public class StoreController {
 		supplier.setQuantityOrder(1);
 		supplier.setOrderId(141);
 		supplier.setAmount(7000);
-		supplierDao.addSupplier(supplier);
+		supplierService.addSupplier(supplier);
 
 		supplier.setSupplierId(121);
 		supplier.setSupplierName("Shyam");
@@ -102,17 +127,21 @@ public class StoreController {
 		supplier.setQuantityOrder(2);
 		supplier.setOrderId(151);
 		supplier.setAmount(7050);
-		supplierDao.addSupplier(supplier);
+		supplierService.addSupplier(supplier);
 
-		// delete goods
+		// delete Supplier
 
 		supplier.setSupplierId(121);
-		supplierDao.deleteSupplier(121);
+		supplierService.deleteSupplier(121);
 
-		// update goods
+		// update Supplier
 		supplier.setSupplierId(121);
 		supplier.setAmount(7500);
-		supplierDao.updateSupplier(supplier);
+		supplierService.updateSupplier(supplier);
+
+		// search by Supplier Id
+		String supplierDetails = retailerService.retrieveSupplier(1);
+		System.out.println("supplierDetails" + supplierDetails);
 
 		// insert Retailer details to Retailer table
 		Retailer retail = new Retailer();
@@ -120,9 +149,6 @@ public class StoreController {
 		retail.setRetailerName("shruti");
 		retail.setRetailerAddress("punjab");
 
-		// retailerDao.addGoods(retail);
-		String custDetail = retailerDao.retrieveCustomer(2);
-		System.out.println("Customer Details: " + custDetail);
 	}
 
 }

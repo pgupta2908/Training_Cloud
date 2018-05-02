@@ -2,13 +2,27 @@ package com.cg.dao;
 
 import com.cg.entity.Customer;
 
+/**
+ * @author trainee
+ *
+ */
 public interface CustomerDao {
 
+	/**
+	 * @param customer
+	 * @return
+	 */
 	public Customer addCustomer(Customer customer);
 
+	/**
+	 * @param customer
+	 * @return
+	 */
 	public Customer updateCustomer(Customer customer);
-	// public Customer updateCustomer(int customerId);
 
+	/**
+	 * @param customerId
+	 * @return
+	 */
 	public Customer deleteCustomer(int customerId);
-	// public Customer deleteCustomer(Customer customer);
 }

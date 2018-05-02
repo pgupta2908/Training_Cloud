@@ -1,15 +1,9 @@
-/**
- * 
- */
 package com.cg.entity;
 
-import javax.persistence.Entity;
-
 /**
- * @author RITIKA
+ * @author trainee
  *
  */
-@Entity
 public class Customer {
 
 	private int customerId;
@@ -17,34 +11,58 @@ public class Customer {
 	private String customerAddress;
 	private String paymentMode;
 
+	/**
+	 * @return
+	 */
 	public int getCustomerId() {
 		return customerId;
 	}
 
+	/**
+	 * @param customerId
+	 */
 	public void setCustomerId(int customerId) {
 		this.customerId = customerId;
 	}
 
+	/**
+	 * @return
+	 */
 	public String getCustomerName() {
 		return customerName;
 	}
 
+	/**
+	 * @param customerName
+	 */
 	public void setCustomerName(String customerName) {
 		this.customerName = customerName;
 	}
 
+	/**
+	 * @return
+	 */
 	public String getCustomerAddress() {
 		return customerAddress;
 	}
 
+	/**
+	 * @param customerAddress
+	 */
 	public void setCustomerAddress(String customerAddress) {
 		this.customerAddress = customerAddress;
 	}
 
+	/**
+	 * @return
+	 */
 	public String getPaymentMode() {
 		return paymentMode;
 	}
 
+	/**
+	 * @param paymentMode
+	 */
 	public void setPaymentMode(String paymentMode) {
 		this.paymentMode = paymentMode;
 	}
@@ -54,7 +72,6 @@ public class Customer {
 	 * @param customerName
 	 * @param customerAddress
 	 * @param paymentMode
-	 * @param string
 	 */
 	public Customer(int customerId, String customerName, String customerAddress, String paymentMode) {
 		super();
@@ -67,15 +84,6 @@ public class Customer {
 	public Customer() {
 		// TODO Auto-generated constructor stub
 	}
-
-	/**
-	 * @param string4
-	 * @param string3
-	 * @param string2
-	 * @param string
-	 * @param i
-	 * 
-	 */
 
 	@Override
 	public String toString() {

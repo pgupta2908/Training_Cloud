@@ -1,42 +1,46 @@
 package com.cg.service;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
-
 import com.cg.dao.GoodsDao;
 import com.cg.entity.Goods;
 
-@Service
-@Transactional
-public class GoodsServiceImpl implements GoodsService{
+/**
+ * @author trainee
+ *
+ */
 
-	@Autowired
-	GoodsDao dao;
-	
-	
+public class GoodsServiceImpl implements GoodsService {
+
+	GoodsDao goodsDao;
+
+	/**
+	 * @param goodsDao
+	 */
+	public void setGoodsDao(GoodsDao goodsDao) {
+		this.goodsDao = goodsDao;
+	}
+
 	@Override
 	public Goods addGoods(Goods goods) {
 		// TODO Auto-generated method stub
-		return dao.addGoods(goods);
+		return goodsDao.addGoods(goods);
 	}
 
 	@Override
 	public Goods updateGoods(Goods goods) {
 		// TODO Auto-generated method stub
-		return dao.updateGoods(goods);
+		return goodsDao.updateGoods(goods);
 	}
 
 	@Override
 	public Goods deleteGoods(int goodsId) {
 		// TODO Auto-generated method stub
-		return dao.deleteGoods(goodsId);
+		return goodsDao.deleteGoods(goodsId);
 	}
 
 	@Override
 	public Goods orderGoods(Goods goods) {
 		// TODO Auto-generated method stub
-		return dao.orderGoods(goods);
+		return goodsDao.orderGoods(goods);
 	}
 
 }
