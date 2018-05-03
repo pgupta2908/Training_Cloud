@@ -50,7 +50,7 @@ public class CustomerDaoImpl implements CustomerDao {
 	}
 
 	@Override
-	public Customer deleteCustomer(int customerId) {
+	public String deleteCustomer(int customerId) {
 		String sql = "delete from customer where customerId = ?";
 		jdbcTemplate.update(sql, new Object[] { customerId });
 		return null;

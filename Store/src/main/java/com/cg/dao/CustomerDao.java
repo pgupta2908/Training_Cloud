@@ -24,5 +24,5 @@ public interface CustomerDao {
 	 * @param customerId
 	 * @return
 	 */
-	public Customer deleteCustomer(int customerId);
+	public String deleteCustomer(int customerId);
 }

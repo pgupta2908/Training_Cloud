@@ -45,15 +45,15 @@ public class GoodsServiceImpl implements GoodsService {
 	}
 
 	@Override
-	public Goods deleteGoods(int goodsId) {
+	public String deleteGoods(int goodsId) {
 		// TODO Auto-generated method stub
 		return goodsDao.deleteGoods(goodsId);
 	}
 
-	@Override
+	/*@Override
 	public Goods orderGoods(Goods goods) {
 		// TODO Auto-generated method stub
 		return goodsDao.orderGoods(goods);
-	}
+	}*/
 
 }

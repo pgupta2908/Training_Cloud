@@ -1,6 +1,11 @@
 package com.cg.dao;
 
+import java.util.List;
+
+import com.cg.entity.Customer;
+import com.cg.entity.Goods;
 import com.cg.entity.Retailer;
+import com.cg.entity.Supplier;
 
 /**
  * @author trainee
@@ -18,18 +23,18 @@ public interface RetailerDao {
 	 * @param goodsId
 	 * @return
 	 */
-	public String retrieveGoods(int goodsId);
+	public List<Goods> retrieveGoods();
 
 	/**
 	 * @param customerId
 	 * @return
 	 */
-	public String retrieveCustomer(int customerId);
+	public List<Customer> retrieveCustomer();
 
 	/**
 	 * @param supplierId
 	 * @return
 	 */
-	public String retrieveSupplier(int supplierId);
+	public List<Supplier> retrieveSupplier();
 
 }

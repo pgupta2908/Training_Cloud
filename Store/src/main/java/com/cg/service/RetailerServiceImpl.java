@@ -1,6 +1,12 @@
 package com.cg.service;
 
+import java.util.List;
+
 import com.cg.dao.RetailerDao;
+import com.cg.entity.Customer;
+import com.cg.entity.Goods;
+import com.cg.entity.Retailer;
+import com.cg.entity.Supplier;
 
 /**
  * @author trainee
@@ -32,21 +38,27 @@ public class RetailerServiceImpl implements RetailerService {
 	}
 
 	@Override
-	public String retrieveGoods(int goodsId) {
+	public Retailer addRetailer(Retailer retailer) {
 		// TODO Auto-generated method stub
-		return retailerDao.retrieveGoods(goodsId);
+		return retailerDao.addRetailer(retailer);
 	}
 
 	@Override
-	public String retrieveCustomer(int customerId) {
+	public List<Goods> retrieveGoods() {
 		// TODO Auto-generated method stub
-		return retailerDao.retrieveCustomer(customerId);
+		return retailerDao.retrieveGoods();
 	}
 
 	@Override
-	public String retrieveSupplier(int SupplierId) {
+	public List<Customer> retrieveCustomer() {
 		// TODO Auto-generated method stub
-		return retailerDao.retrieveSupplier(SupplierId);
+		return retailerDao.retrieveCustomer();
+	}
+
+	@Override
+	public List<Supplier> retrieveSupplier() {
+		// TODO Auto-generated method stub
+		return retailerDao.retrieveSupplier();
 	}
 
 }

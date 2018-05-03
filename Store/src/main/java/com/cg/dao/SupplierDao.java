@@ -24,5 +24,5 @@ public interface SupplierDao {
 	 * @param supplierId
 	 * @return
 	 */
-	public Supplier deleteSupplier(int supplierId);
+	public String deleteSupplier(int supplierId);
 }

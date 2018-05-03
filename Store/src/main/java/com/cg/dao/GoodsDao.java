@@ -24,12 +24,12 @@ public interface GoodsDao {
 	 * @param goodsId
 	 * @return
 	 */
-	public Goods deleteGoods(int goodsId);
+	public String deleteGoods(int goodsId);
 
-	/**
+/*	*//**
 	 * @param goods
 	 * @return
-	 */
-	public Goods orderGoods(Goods goods);
+	 *//*
+	public Goods orderGoods(Goods goods);*/
 
 }

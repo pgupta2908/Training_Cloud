@@ -50,17 +50,17 @@ public class GoodsDaoImpl implements GoodsDao {
 	}
 
 	@Override
-	public Goods deleteGoods(int goodsId) {
+	public String deleteGoods(int goodsId) {
 		String sql = "delete from goods where goodsId = ?";
 		jdbcTemplate.update(sql, new Object[] { goodsId });
 		return null;
 
 	}
 
-	@Override
+	/*@Override
 	public Goods orderGoods(Goods goods) {
 		// TODO Auto-generated method stub
 		return null;
-	}
+	}*/
 
 }

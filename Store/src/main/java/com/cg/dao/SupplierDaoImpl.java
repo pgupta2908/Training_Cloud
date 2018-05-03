@@ -52,7 +52,7 @@ public class SupplierDaoImpl implements SupplierDao {
 	}
 
 	@Override
-	public Supplier deleteSupplier(int supplierId) {
+	public String deleteSupplier(int supplierId) {
 		String sql = "delete from supplier where supplierId = ?";
 		jdbcTemplate.update(sql, new Object[] { supplierId });
 		return null;
