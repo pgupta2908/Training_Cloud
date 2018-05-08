@@ -81,8 +81,7 @@ public class StoreController extends HttpServlet {
 			throws ServletException, IOException {
 
 //		System.out.println("uihui");
-		///String qStr = request.getParameter("act");
-		//.out.println(qStr);
+		//String qStr = request.getParameter("act");
 
 		RequestDispatcher dispatch = null;
 
