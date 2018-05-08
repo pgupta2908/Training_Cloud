@@ -6,12 +6,19 @@
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="return" key="selection"/>
+		<item value="NULL AUTO_INCREMENT" key="selection"/>
 		<item value="true" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="NULL"/>
+			<item value="heheh"/>
+			<item value="service"/>
+			<item value="retail"/>
+			<item value="Customer"/>
+			<item value="test"/>
+			<item value="Goods"/>
 			<item value="return new"/>
 			<item value="Object"/>
 			<item value="ustomeromer"/>
@@ -20,15 +27,15 @@
 			<item value="dao"/>
 			<item value="atasource"/>
 			<item value="dataSource"/>
-			<item value="jdbcTemplate = new JdbcTemplate(dataSource);"/>
-			<item value="new"/>
-			<item value="jdbcTemplate"/>
-			<item value="customer.get"/>
-			<item value="Object[] inputs = new Object[] { customer.getCustomerId(), customer.getCustomerName(),"/>
-			<item value="System.out.println"/>
-			<item value="nextLine"/>
 		</list>
 		<list key="replacehistory">
+			<item value="NULL AUTO_INCREMENT"/>
+			<item value="NULL AUTO"/>
+			<item value="NULL"/>
+			<item value="customerService"/>
+			<item value="Retailer"/>
+			<item value="service"/>
+			<item value="Supplier"/>
 			<item value="return"/>
 			<item value="Customer"/>
 			<item value="ustomer"/>
@@ -37,13 +44,6 @@
 			<item value="retailerDao"/>
 			<item value="goodsDao"/>
 			<item value="customerDao"/>
-			<item value="ataSource"/>
-			<item value="jdbcTemplate"/>
-			<item value=""/>
-			<item value="log.info"/>
-			<item value="next"/>
-			<item value="Map&lt;Integer, "/>
-			<item value="Map&lt;"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">

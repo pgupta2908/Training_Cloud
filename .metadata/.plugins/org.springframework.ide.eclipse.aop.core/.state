@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
-<aop-project name="banking"/>
 <aop-project name="Store"/>
-<aop-project name="Spring_BankApp"/>
-<aop-project name="goods"/>
-<aop-project name="customer"/>
+<aop-project name="StoreServlet"/>
 </aop-reference-model>

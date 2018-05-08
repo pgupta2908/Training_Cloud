@@ -1,0 +1,38 @@
+CREATE DATABASE RetailShop;
+
+USE RetailShop;
+
+CREATE TABLE Goods (
+GoodsId INTEGER NOT NULL AUTO_INCREMENT,
+GoodsName VARCHAR(50),
+GoodsQuantity INTEGER,
+GoodsPrice DOUBLE,
+PRIMARY KEY(GoodsId)
+);
+
+CREATE TABLE Customer (
+CustomerId INTEGER NOT NULL AUTO_INCREMENT,
+CustomerName VARCHAR(50),
+CustomerAddress VARCHAR(50),
+PaymentMode VARCHAR(50),
+PRIMARY KEY(CustomerId)
+);
+
+CREATE TABLE Supplier (
+SupplierId INTEGER NOT NULL AUTO_INCREMENT,
+SupplierName VARCHAR(50),
+SupplierAddress VARCHAR(50),
+QuantityOrder INTEGER,
+OrderId INTEGER,
+Amount DOUBLE,
+PRIMARY KEY(SupplierId)
+);
+
+CREATE TABLE Retailer (
+RetailerId INTEGER NOT NULL AUTO_INCREMENT,
+RetailerName VARCHAR(50),
+RetailerAddress VARCHAR(50),
+PRIMARY KEY(RetailerId)
+);
+
+SHOW TABLES;

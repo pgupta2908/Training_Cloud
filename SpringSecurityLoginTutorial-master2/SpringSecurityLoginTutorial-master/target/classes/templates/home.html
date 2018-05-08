@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+
+<head>
+<title>Admin Page</title>
+<link rel="stylesheet" type="text/css" th:href="@{/css/home.css}" />
+<link rel="stylesheet" type="text/css" th:href="@{/css/index.css}" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script	src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style type="text/css">
+body{	
+	background-image:url("/images/backg.jpg");
+	background-size: 100%;
+}
+.admin-message-text {
+	font-style: normal;
+	font-size: 22px;
+	color: #004080;
+}
+
+.tableClass{
+	background-image: url("images/back.jpg");
+	}
+.btn-primary{
+	background-color: #003d66 !important;
+}
+</style>
+
+</head>
+
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" th:href="@{/home.html}">Portal</a>
+    </div>
+    <ul class="nav navbar-nav">
+    
+      <!-- <li class="active"><a th:href="@{/home.html}">Home</a></li> -->
+      <!-- li><a th:href="#">Page 1</a></li>
+      <li><a href="#">Page 2</a></li> -->
+      
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+   <!--  <li><a th:href="#"><span class="glyphicon glyphicon-user"></span> Welcome th:text="${session.name}</a></li> -->
+<!-- 	 <li><div th:text= Welcome! "${session.name}"> </div></li> -->
+      <li><a th:href="@{/logout}"><span class="glyphicon glyphicon-user"></span> Logout</a></li>
+    
+    </ul>
+  </div>
+</nav>
+
+<p class="field" align="right"><b>Welcome!&nbsp</b><b th:text="${session.name}"></b></p>
+<br><br>
+<table class="table" align="center" border="5">
+	<tr>
+		<td align="center">
+		<a class="button" th:href="@{/ideas.html}">Ideas</a>
+		</td>
+	</tr>
+	
+	<tr>
+		<td align="center">
+		<a class="button" th:href="@{/problems.html}">Problems</a>
+		</td>
+	</tr>
+</table>
+</body>
+</html>
