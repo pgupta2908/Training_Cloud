@@ -1,4 +1,4 @@
-package com.training.repository;
+/*package com.training.repository;
 
 import org.springframework.stereotype.Repository;
 
@@ -26,3 +26,4 @@ public class CustomerRepositoryImpl implements ICustomerRepository {
 	}
 
 }
+*/

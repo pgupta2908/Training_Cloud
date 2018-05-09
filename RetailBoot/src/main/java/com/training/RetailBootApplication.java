@@ -1,4 +1,4 @@
-package com.training.RetailBoot;
+package com.training;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
