@@ -1,6 +1,9 @@
-/*package com.training.service;
+package com.training.service;
+
+import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import com.training.model.Customer;
@@ -10,22 +13,23 @@ import com.training.repository.ICustomerRepository;
 public class CustomerServiceImpl implements ICustomerService {
 
 	@Autowired
-	ICustomerRepository dao;
+	ICustomerRepository customerRepo;
 
 	@Override
 	public Customer addCustomer(Customer customer) {
-		return dao.addCustomer(customer);
+		return customerRepo.save(customer);
 	}
 
 	@Override
-	public Customer updateCustomer(int customerId) {
-		return dao.updateCustomer(customerId);
+	public List<Customer> updateCustomer(int customerId) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 	@Override
-	public String deleteCustomer(int customerId) {
-		return dao.deleteCustomer(customerId);
+	public List<Customer> deleteCustomer(int customerId) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }
-*/

@@ -1,25 +1,15 @@
 package com.training.repository;
 
+import org.springframework.data.jpa.repository.JpaRepository;
+
 import com.training.model.Customer;
 
-public interface ICustomerRepository {
+public interface ICustomerRepository extends JpaRepository<Customer, Integer>{
+	
+/*	public ResponseEntity<Customer> addCustomer(Customer customer);
 
-	/**
-	 * @param customer
-	 * @return
-	 */
-	public Customer addCustomer(Customer customer);
+	public ResponseEntity<List<Customer>> updateCustomer(int customerId);
 
-	/**
-	 * @param customerId
-	 * @return
-	 */
-	public Customer updateCustomer(int customerId);
-
-	/**
-	 * @param customerId
-	 * @return
-	 */
-	public String deleteCustomer(int customerId);
+	public ResponseEntity<List<Customer>> deleteCustomer(int customerId);*/
 
 }

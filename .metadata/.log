@@ -7483,3 +7483,33 @@ java.lang.NullPointerException
 
 !ENTRY org.eclipse.wst.server.core 4 0 2018-05-09 16:36:23.203
 !MESSAGE Server Tomcat v9.0 Server at localhost failed to start.
+
+!ENTRY ch.acanda.eclipse.pmd.core 1 0 2018-05-10 15:41:28.747
+!MESSAGE ENTRY_MODIFY: D:\Users\trainee\Downloads\12ad9312-f7b4-4e1c-8773-ade636f7741e.tmp
+
+!ENTRY ch.acanda.eclipse.pmd.core 1 0 2018-05-10 15:41:28.825
+!MESSAGE ENTRY_MODIFY: D:\Users\trainee\Downloads\12ad9312-f7b4-4e1c-8773-ade636f7741e.tmp
+
+!ENTRY ch.acanda.eclipse.pmd.core 1 0 2018-05-10 15:41:28.825
+!MESSAGE ENTRY_DELETE: D:\Users\trainee\Downloads\12ad9312-f7b4-4e1c-8773-ade636f7741e.tmp
+
+!ENTRY ch.acanda.eclipse.pmd.core 1 0 2018-05-10 15:41:28.840
+!MESSAGE ENTRY_MODIFY: D:\Users\trainee\Downloads\Copy of Compliance report_9 May.xlsx.crdownload
+
+!ENTRY ch.acanda.eclipse.pmd.core 1 0 2018-05-10 15:41:30.504
+!MESSAGE ENTRY_MODIFY: D:\Users\trainee\Downloads\Copy of Compliance report_9 May.xlsx.crdownload
+
+!ENTRY ch.acanda.eclipse.pmd.core 1 0 2018-05-10 15:41:30.555
+!MESSAGE ENTRY_DELETE: D:\Users\trainee\Downloads\Copy of Compliance report_9 May.xlsx.crdownload
+
+!ENTRY ch.acanda.eclipse.pmd.core 1 0 2018-05-10 15:41:30.557
+!MESSAGE ENTRY_MODIFY: D:\Users\trainee\Downloads\Copy of Compliance report_9 May.xlsx
+
+!ENTRY ch.acanda.eclipse.pmd.core 1 0 2018-05-10 15:41:40.457
+!MESSAGE ENTRY_MODIFY: D:\Users\trainee\Downloads\~$Copy of Compliance report_9 May.xlsx
+
+!ENTRY ch.acanda.eclipse.pmd.core 1 0 2018-05-10 15:41:40.506
+!MESSAGE ENTRY_MODIFY: D:\Users\trainee\Downloads\~$Copy of Compliance report_9 May.xlsx
+
+!ENTRY ch.acanda.eclipse.pmd.core 1 0 2018-05-10 15:49:49.878
+!MESSAGE ENTRY_DELETE: D:\Users\trainee\Downloads\~$Copy of Compliance report_9 May.xlsx
