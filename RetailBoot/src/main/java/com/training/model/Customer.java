@@ -23,28 +23,6 @@ public class Customer {
 	@Column(name = "customerName")
 	private String customerName;
 
-	@Override
-	public int hashCode() {
-		final Integer prime = 31;
-		Integer result = 1;
-		result = prime * result + customerId;
-		return result;
-	}
-
-	@Override
-	public boolean equals(Object obj) {
-		if (this == obj)
-			return true;
-		if (obj == null)
-			return false;
-		if (getClass() != obj.getClass())
-			return false;
-		Customer other = (Customer) obj;
-		if (customerId != other.customerId)
-			return false;
-		return true;
-	}
-
 	@Column(name = "customerAddress")
 	private String customerAddress;
 

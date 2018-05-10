@@ -42,20 +42,21 @@ public class CustomerController {
 		 * customer.setCustomerAddress(customerAddress);
 		 * customer.setPaymentMode(paymentMode);
 		 */
-		customerService.addCustomer(customer);
-		return new ResponseEntity<Customer>(customer, HttpStatus.CREATED);
+		//Customer customer = new Customer(1, "asd", "sd", "sd");
+//		customerService.addCustomer(customer);
+		return new ResponseEntity<Customer>(customerService.addCustomer(customer), HttpStatus.OK);
 	}
 
-	@RequestMapping(value = "updateCustomer", method = RequestMethod.PUT)
+/*	@RequestMapping(value = "updateCustomer", method = RequestMethod.PUT)
 	public ResponseEntity<List<Customer>> updateCustomer(int customerId) {
 
 		customerService.updateCustomer(customerId);
 		return new ResponseEntity<List<Customer>>(List<Customer>, HttpStatus.OK);
-	}
+	}*/
 
-	@RequestMapping(value = "/deleteCustomer/{customerId}", method = RequestMethod.DELETE)
+/*	@RequestMapping(value = "/deleteCustomer/{customerId}", method = RequestMethod.DELETE)
 	public ResponseEntity<List<Customer>> deleteCustomer(@PathVariable("customerId") int customerId) {
-		/*
+		
 		 * List<Customer> list = new ArrayList<>(); Customer cust1 = new Customer(1,
 		 * "sohan", "goa", "card"); Customer cust2 = new Customer(2, "taimur", "konkan",
 		 * "gold"); Customer cust3 = new Customer(3, "mohan", "bangladesh", "change");
@@ -65,7 +66,7 @@ public class CustomerController {
 		 * list.set(1, cust1); list.set(2, cust2); list.set(3, cust3);
 		 * list.remove(customerId); //System.out.println(list);
 		 * //System.out.println(customerId); System.out.println(list.size());
-		 */
+		 
 
 		return customerService.deleteCustomer(customerId);
 	}
@@ -73,14 +74,14 @@ public class CustomerController {
 	@RequestMapping(value = "displayAll", method = RequestMethod.GET)
 	public ResponseEntity<List<Customer>> displayAllCustomers() {
 
-		/*
+		
 		 * List<Customer> list = new ArrayList<>(); Customer cust1 = new Customer(1,
 		 * "sohan", "goa", "card"); Customer cust2 = new Customer(2, "taimur", "konkan",
 		 * "gold"); Customer cust3 = new Customer(3, "mohan", "bangladesh", "change");
 		 * Customer cust4 = new Customer(4, "prabhat", "goa", "cash"); list.add(cust1);
 		 * list.add(cust2); list.add(cust3); list.add(cust4);
-		 */
+		 
 
 		return retailerService.viewAllCustomers();
-	}
+	}*/
 }
